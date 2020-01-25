@@ -1,0 +1,7 @@
+{{ define "main" -}}
+<h1>Publications</h1>
+<hr>
+{{ range .Data.Pages -}}
+    {{ .Render "li" }}
+{{- end }}
+{{- end }}

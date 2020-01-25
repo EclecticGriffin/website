@@ -1,0 +1,24 @@
+{{ if .Params.paper_link }}
+{{ $link := .Params.paper_link }}
+{{ $pdf := resources.Get $link }}
+    {{ if $pdf }}
+    <li>
+        <a href="{{ $pdf.Permalink }}">{{ .Title }}</a> - <a href="{{ .Params.conference_link }}">{{ .Params.conference_name }} {{.Params.year}}</a>
+        <p>{{.Params.authors}}</p>
+    </li>
+
+    {{ else }}
+    <li>
+        {{ .Title }} - <a href="{{ .Params.conference_link }}">{{ .Params.conference_name }} {{.Params.year}}</a>
+        <p>{{.Params.authors}}</p>
+    </li>
+    {{ end }}
+
+{{ else }}
+
+    <li>
+        {{ .Title }} - <a href="{{ .Params.conference_link }}">{{ .Params.conference_name }} {{.Params.year}}</a>
+        <p>{{.Params.authors}}</p>
+    </li>
+
+{{ end }}

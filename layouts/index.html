@@ -1,20 +1,32 @@
-{{ define "main" }}
-<main aria-role="main">
-  <header class="homepage-header">
-    <h1>{{.Title}}</h1>
-    {{ with .Params.subtitle }}
-    <span class="subtitle">{{.}}</span>
-    {{ end }}
-  </header>
-  <div class="homepage-content">
-    <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-    {{.Content}}
-  </div>
-  <div>
-    <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. -->
-    {{ range first 10 .Pages }}
-        {{ .Render "summary"}}
-    {{ end }}
-  </div>
-</main>
-{{ end }}
+{{ define "main" -}}
+<div class="profile">
+<table class="table-profile">
+    <tr>
+        <td>
+            <figure class="headshot-img" style="margin:10px; width:200px">
+                <img src="/images/headshot.JPG" width=200 height=200>
+            </figure>
+        </td>
+        <td>
+        </td>
+        <td>
+            <div class="info" style="">
+                <h1>Griffin Berlstein</h1>
+                <h3 style="margin:auto"><a href="https://www.cornell.edu/">Cornell University</a></h3>
+                <h4 style="margin:auto"><a href="https://www.cs.cornell.edu/">Department of Computer Science</a></h4>
+                <p style="margin:auto; margin-top:0.5em"> Email: griffin [at] cs [dot] cornell [dot] edu</p>
+                <p style="margin:auto">Gates Hall G23</p>
+            </div>
+        </td>
+    </tr>
+
+</table>
+
+<hr>
+
+
+
+</div>
+
+    {{ .Content }}
+{{- end }}

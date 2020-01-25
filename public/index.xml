@@ -6,19 +6,9 @@
     <description>Recent content on Griffin Berlstein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Nov 2019 18:57:15 -0500</lastBuildDate>
     
 	<atom:link href="http://griffinberlste.in/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Test</title>
-      <link>http://griffinberlste.in/posts/test/</link>
-      <pubDate>Mon, 18 Nov 2019 18:57:15 -0500</pubDate>
-      
-      <guid>http://griffinberlste.in/posts/test/</guid>
-      <description>Help This is an new section</description>
-    </item>
     
   </channel>
 </rss>

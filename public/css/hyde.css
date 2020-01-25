@@ -65,7 +65,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 14rem;
     text-align: left;
   }
 }
@@ -80,7 +80,7 @@ html {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 2.5rem;
 }
 
 /* Sidebar nav */
@@ -247,4 +247,15 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+.table-profile td {
+  border: 0px;
+}
+.table-profile {
+  border: 0px;
+}
+.table-profile tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th{
+  background-color:white
+  ;
 }

@@ -25,6 +25,14 @@ author = "Griffin Berlstein"
 
 [Menus]
   main = [
+    {Name = "Blog", URL = "/blog" },
+    {Name = "Publications", URL = "/papers" }
+  ]
+
+  social = [
       {Name = "Github", URL = "https://github.com/eclecticgriffin"},
       {Name = "Twitter", URL = "https://twitter.com/EclecticGriffin"}
   ]
+
+  [permalinks]
+    blog = "/:year/:month/:day/:title/"
