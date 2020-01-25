@@ -1,4 +1,4 @@
-baseURL = "http://griffinberlste.in/"
+baseURL = "https://griffinberlste.in/"
 languageCode = "en-us"
 title = "Griffin Berlstein"
 theme = "hyde"
