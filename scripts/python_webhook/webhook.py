@@ -10,7 +10,7 @@ app = Flask(__name__)
 def webhook():
 
     signature = request.headers.get('X-Hub-Signature')
-    body = request.get_json()
+    body = request.get_data().as_text
 
     computed_sig = hmac.digest(WEBHOOK_SECRET, body, 'sha1').hexdigest()
 
