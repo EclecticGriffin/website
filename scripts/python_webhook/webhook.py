@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import hmac
 import os
+import subprocess
 
 WEBHOOK_SECRET = bytes(os.getenv('WEBHOOK_SECRET'), 'utf-8')
 
@@ -16,8 +17,8 @@ def webhook():
 
     if hmac.compare_digest(computed_sig, signature):
         print('success')
-        os.subprocess.run(["git", "pull"])
-        os.subprocess.run(["hugo"])
+        subprocess.run(["git", "pull"])
+        subprocess.run(["hugo"])
     else:
         print('error')
 
