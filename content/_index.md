@@ -3,15 +3,22 @@ markup: md
 ---
 
 Griffin Berlstein is a first-year PhD student studying computer science at
-Cornell University. Previously they studied at Vassar college from which they
-graduated in 2019 with a major in Computer Science and a minor in Mathematics.
-They find writing about themselves in the third person to be awkward and clunky
-yet get so few chances to do it that they simply couldn't resist. For this, and
-nothing else, they apologize.
+Cornell University. They graduated from [Vassar College](https://www.vassar.edu/)
+in 2019 with a major in Computer Science and a minor in Mathematics. While at
+Vassar they were advised by 
+[Jason Waterman](https://www.vassar.edu/faculty/jawaterman/) 
+who though they were pretty okay (probably). They find writing
+about themselves in the third person to be awkward and clunky yet get so few
+chances to do it that they simply couldn't resist. For this, and nothing else,
+they apologize.
 
-Anyway, I'm broadly interested in Systems and am increasingly being drawn into
-the intersection of PL and Networks. I occasionally write things, academic and
-otherwise both of which can be found in the sidebar.
+Anyway, dropping the third person. I'm broadly interested in Systems, PL, and
+Networks and my work thus has often touch on some aspects of privacy/security
+though I consider myself an expert in neither. I am advised by [Nate
+Foster](https://www.cs.cornell.edu/~jnfoster/). 
+
+I occasionally write things, academic and otherwise, which can be found in the
+sidebar. Audience discretion is advised.
 
 ---
 
@@ -31,11 +38,12 @@ otherwise both of which can be found in the sidebar.
 
 ## News
 
-I don't really know what goes here. I'm not that interesting, to be honest, but
-other people have a news section so I feel morally obligated to have one too
+I don't really know what goes here. My existence, while ongoing, is not
+particularly interesting. But since other people have a news section so I feel
+morally obligated to have one too.
 
 
 #### About this site
 
-I made it using Hugo and the hyde theme, if things look weird it's probably my
-fault. Web design is not my forte.
+I made it using Hugo and the Hyde theme, if things look weird, it's almost
+certainly my fault. Web design is not my forte.
