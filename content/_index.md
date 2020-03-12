@@ -7,13 +7,13 @@ Cornell University. They graduated from [Vassar College](https://www.vassar.edu/
 in 2019 with a major in Computer Science and a minor in Mathematics. While at
 Vassar they were advised by 
 [Jason Waterman](https://www.vassar.edu/faculty/jawaterman/) 
-who though they were pretty okay (probably). They find writing
+who thought they were pretty okay (probably). They find writing
 about themselves in the third person to be awkward and clunky yet get so few
 chances to do it that they simply couldn't resist. For this, and nothing else,
 they apologize.
 
-Anyway, dropping the third person. I'm broadly interested in Systems, PL, and
-Networks and my work thus has often touch on some aspects of privacy/security
+Anyway, dropping the third person. I'm broadly interested in PL, Systems, and
+Networks and my work thus has often touched on some aspects of privacy/security
 though I consider myself an expert in neither. I am advised by [Nate
 Foster](https://www.cs.cornell.edu/~jnfoster/). 
 
