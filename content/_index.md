@@ -39,8 +39,8 @@ sidebar. Audience discretion is advised.
 ## News
 
 I don't really know what goes here. My existence, while ongoing, is not
-particularly interesting. But since other people have a news section so I feel
-morally obligated to have one too.
+particularly interesting. But since other people have a news section I feel
+morally obligated to do the same.
 
 
 #### About this site
