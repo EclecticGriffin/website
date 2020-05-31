@@ -25,7 +25,7 @@ author = "Griffin Berlstein"
 
 [Menus]
   main = [
-    {Name = "Blog", URL = "/blog" },
+    {Name = "Blog", URL = "/post" },
     {Name = "Publications", URL = "/papers" }
   ]
 
@@ -35,4 +35,4 @@ author = "Griffin Berlstein"
   ]
 
   [permalinks]
-    blog = "/:year/:month/:day/:title/"
+    post = "/:year/:month/:day/:title/"

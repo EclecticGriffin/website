@@ -13,12 +13,12 @@ chances to do it that they simply couldn't resist. For this, and nothing else,
 they apologize.
 
 Anyway, dropping the third person. I'm broadly interested in PL, Systems, and
-Networks and my work thus has often touched on some aspects of privacy/security
-though I consider myself an expert in neither. I am advised by [Nate
-Foster](https://www.cs.cornell.edu/~jnfoster/). 
+Networks and my work thus far has often touched on some aspects of
+privacy/security though I consider myself an expert in neither. I am advised by
+[Nate Foster](https://www.cs.cornell.edu/~jnfoster/). 
 
 I occasionally write things, academic and otherwise, which can be found in the
-sidebar. Audience discretion is advised.
+sidebar.
 
 ---
 
@@ -39,11 +39,11 @@ sidebar. Audience discretion is advised.
 ## News
 
 I don't really know what goes here. My existence, while ongoing, is not
-particularly interesting. But since other people have a news section I feel
-morally obligated to do the same.
+particularly interesting. But since other people have a news section I let the
+peer pressure get to me.
 
 
 #### About this site
 
-I made it using Hugo and the Hyde theme, if things look weird, it's almost
-certainly my fault. Web design is not my forte.
+I made it using Hugo and the Hyde theme (with a bunch of hacking), if things
+look weird, it's almost certainly my fault. Web design is not my forte.

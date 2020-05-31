@@ -1,8 +1,50 @@
-{{ if .Params.paper_link }}
+{{/*  {{ if .Params.paper_link }}
 {{ $link := .Params.paper_link }}
-{{ $pdf := resources.Get $link }}
-    {{ if $pdf }}
+{{ $pdf := resources.Get $link }}  */}}
+
+{{ $authors := .Params.authors }}
+
+
+<span class="pub_title">{{ .Title }} <a class="pub_venue" href="{{ .Params.conference_link }}"> ({{ .Params.conference_name }} {{.Params.year}})</a></span>
+<div class="pub_details">
+<li>
+     
+</li>
+<div class="pub_authors">
+    {{ $scratch := newScratch }}
+    {{ range $index, $author := $authors }}
+        {{ $scratch.Set "url" ""}}
+        {{ $csv := "/authors.csv"}}
+        {{ range $i, $r := getCSV "," "authors.csv" }}
+            {{ if (eq (index $r 0) $author)}}
+            {{ $scratch.Set "url" (index $r 1) }}
+            
+            {{end}}
+        {{ end }}
+    {{ if eq $author "Griffin Berlstein" }}
+        <span class="author_me">Griffin Berlstein</span>{{ if not (eq $index (sub (len $authors) 1)) }},{{ end }}
+    {{ else if $scratch.Get "url"}}
+        <a href="{{ $scratch.Get "url" }}">{{ $author }}</a>{{ if not (eq $index (sub (len $authors) 1)) }},{{ end }}
+    {{ else }}
+        {{ $author }}{{ if not (eq $index (sub (len $authors) 1)) }},{{ end }}
+    {{end}}
+    {{ end }}
+</div>
+<div class="links">
+    {{ if .Params.paper_link }}
+    {{ $pdf := resources.Get .Params.paper_link }}
+        {{ if $pdf }}
+        <a class="button_link" href="{{ $pdf.Permalink }}"> {{ partial "fontawesome.html" "file-pdf" }}  PDF</a>
+        {{ end }}
+    {{ end }}
+</div>
+</div>
+
+
+    {{/*  {{ if $pdf }}
     <li>
+        {{ partial "fontawesome.html" "file-pdf" }}
+        <a class="button_link" href="{{ $pdf.Permalink }}"> {{ partial "fontawesome.html" "file-pdf" }}  PDF</a>
         <a href="{{ $pdf.Permalink }}">{{ .Title }}</a> - <a href="{{ .Params.conference_link }}">{{ .Params.conference_name }} {{.Params.year}}</a>
         <p>{{.Params.authors}}</p>
     </li>
@@ -21,4 +63,4 @@
         <p>{{.Params.authors}}</p>
     </li>
 
-{{ end }}
+{{ end }}  */}}

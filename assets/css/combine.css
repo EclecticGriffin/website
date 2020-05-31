@@ -598,7 +598,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 45rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -728,4 +728,80 @@ a.sidebar-nav-item:focus {
 .table-profile tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th{
   background-color:white
   ;
+}
+
+.inline-svg {
+  display: inline-block;
+  height: 0.7rem;
+  width: 0.7rem;
+  top: 0.15rem;
+  position: relative;
+}
+
+a.button_link {
+  display: inline-block;
+  padding: 0.20em;
+  margin-right: 0.2em;
+  border: 1px solid #003333;
+  border-radius: 3px;
+  color: #003333;
+  text-decoration: none;
+  font-variant: small-caps;
+  letter-spacing: 0.3pt;
+  line-height: 1em;
+}
+a.button_link:hover {
+  background-color: #003333;
+  color: white;
+  transition: color 0.5s, background-color 0.5s;
+}
+/* a.button_link.pdf_link:before,
+a.button_link.talk_link:before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 0.9em;
+  padding-right: 0.33em;
+}
+a.button_link.pdf_link:before {
+  content: "\f1c1";
+}
+a.button_link.talk_link:before {
+  content: "\f144";
+} */
+
+div.pub_details {
+  padding-left: 1.5em;
+}
+
+div.pub_details li {
+ list-style-type: none;
+}
+
+.pub_venue {
+  font-style: italic;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.author_me {
+  font-weight: bold;
+  font-size: 18px;
+}
+.pub_title {
+  font-weight: bold;
+  font-size: 21;
+}
+.pub_authors a {
+  color: #333;
+  border-color: #333;
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.pub_authors {
+  font-size: 18px;
+}
+
+div.links {
+  margin-top: 10px;
 }
