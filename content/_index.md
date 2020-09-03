@@ -2,7 +2,7 @@
 markup: md
 ---
 
-Griffin Berlstein is a first-year PhD student studying computer science at
+Griffin Berlstein is a second-year PhD student studying computer science at
 Cornell University. They graduated from [Vassar College](https://www.vassar.edu/)
 in 2019 with a major in Computer Science and a minor in Mathematics. While at
 Vassar they were advised by
