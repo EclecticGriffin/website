@@ -25,8 +25,9 @@ author = "Griffin Berlstein"
 
 [Menus]
   main = [
-    {Name = "Blog", URL = "/post" },
-    {Name = "Publications", URL = "/papers" }
+    {Name = "Blog", URL = "/post", Weight = 100 },
+    {Name = "Publications", URL = "/papers", Weight = 200},
+    {Name = "Contact", URL = "/contact", Weight = 300 },
   ]
 
   social = [

@@ -18,6 +18,7 @@ privacy/security though I consider myself an expert in neither. I am advised by
 [Nate Foster](https://www.cs.cornell.edu/~jnfoster/).
 
 I occasionally write things, academic and otherwise, which can be found in the
+sidebar. If you'd like to get in contact with me, please see the tab in the
 sidebar.
 
 ---
@@ -37,10 +38,14 @@ sidebar.
 ---
 
 ## News
-
-I don't really know what goes here. My existence, while ongoing, is not
-particularly interesting. But since other people have a news section I let the
-peer pressure get to me.
+| When | What|
+| :--- |:---|
+| August 2020 | I am supported by an RA this semester |
+| March 2020 | Helped Organize the CS visit day |
+|            | Presented at Cornell's PLDG |
+| November 2019 | [Ancile](pdf/ancile.pdf) appears at WPES'19|
+| August 2019 | Started my first year at Cornell |
+| May 2019 | Graduated from Vassar |
 
 
 #### About this site
