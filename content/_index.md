@@ -5,9 +5,9 @@ markup: md
 Griffin Berlstein is a second-year PhD student studying computer science at
 Cornell University. They graduated from [Vassar College](https://www.vassar.edu/)
 in 2019 with a major in Computer Science and a minor in Mathematics. While at
-Vassar they were advised by
+Vassar they were advised by the wonderful
 [Jason Waterman](https://www.vassar.edu/faculty/jawaterman/)
-who thought they were pretty okay (probably).
+who thought they were pretty okay.
 
 They are interested in PL and Systems and how these areas intersect with computer architecture.
 [Adrian Sampson](https://www.cs.cornell.edu/~asampson/) is their advisor and otherwise party to their shenanigans in [Capra](https://capra.cs.cornell.edu/).
