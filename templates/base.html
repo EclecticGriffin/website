@@ -11,6 +11,8 @@
 
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
 
+  <link rel="icon" href="{{ get_url(path="favicon.png") | safe }}" type="image/png">
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ get_url(path="print.css", trailing_slash=false) }}" media="print">
   <link rel="stylesheet" href="{{ get_url(path="poole.css", trailing_slash=false) }}">
