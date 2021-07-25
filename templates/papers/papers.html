@@ -18,22 +18,16 @@
         {% set comma = "" %}
         {% endif %}
 
+        {% for stored_author in config.extra.authors %}
+        {% if stored_author.name == author %}
+        {% set_global link = stored_author.link %}
+        {% endif %}
+        {% endfor %}
+
         {% if author is matching("Griffin Berlstein") %}
         <span class="author_me">Griffin Berlstein</span>{{ comma }}
-        {% elif author is matching("Eugene Bagdasaryan") %}
-        <a href="https://ebagdasa.github.io/">{{ author }}</a>{{ comma }}
-        {% elif author is matching("Jason Waterman") %}
-        <a href="https://www.cs.vassar.edu/~jawaterman/">{{ author }}</a>{{ comma }}
-        {% elif author is matching("Eleanor Birrell") %}
-        <a href="https://cs.pomona.edu/~ebirrell/">{{ author }}</a>{{ comma }}
-        {% elif author is matching("Nate Foster") %}
-        <a href="https://www.cs.cornell.edu/~jnfoster/">{{ author }}</a>{{ comma }}
-        {% elif author is matching("Fred B. Schneider") %}
-        <a href="https://www.cs.cornell.edu/fbs/">{{ author }}</a>{{ comma }}
-        {% elif author is matching("Deborah Estrin") %}
-        <a href="https://destrin.smalldata.io/">{{ author }}</a>{{ comma }}
         {% else %}
-        <a href="">{{ author }}</a>{{ comma }}
+        <a href="{{ link }}">{{ author }}</a>{{ comma }}
         {% endif %}
 
 

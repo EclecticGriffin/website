@@ -35,3 +35,12 @@ hyde_socials = [
 
 hyde_reverse= false
 hyde_sticky=false
+
+authors = [
+    {name="Jason Waterman", link="https://www.cs.vassar.edu/~jawaterman/"},
+    {name="Eugene Bagdasaryan", link="https://ebagdasa.github.io/"},
+    {name="Eleanor Birrell", link="https://cs.pomona.edu/~ebirrell/"},
+    {name="Nate Foster", link="https://www.cs.cornell.edu/~jnfoster/"},
+    {name="Fred B. Schneider", link="https://www.cs.cornell.edu/fbs/"},
+    {name="Deborah Estrin", link="https://destrin.smalldata.io/"}
+]
