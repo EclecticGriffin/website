@@ -1,6 +1,7 @@
 +++
 title= "A Toolkit for Designing Hardware DSLs"
 template= "papers/li.html"
+date=2021-10-22
 [extra]
 conference_name ="WOSET"
 conference_link= "https://woset-workshop.github.io/"

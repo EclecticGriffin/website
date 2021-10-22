@@ -42,5 +42,8 @@ authors = [
     {name="Eleanor Birrell", link="https://cs.pomona.edu/~ebirrell/"},
     {name="Nate Foster", link="https://www.cs.cornell.edu/~jnfoster/"},
     {name="Fred B. Schneider", link="https://www.cs.cornell.edu/fbs/"},
-    {name="Deborah Estrin", link="https://destrin.smalldata.io/"}
+    {name="Deborah Estrin", link="https://destrin.smalldata.io/"},
+    {name="Rachit Nigam", link="https://rachitnigam.com/"},
+    {name="Chris Gyurgyik", link="https://cgyurgyik.github.io/"},
+    {name="Adrian Sampson", link="https://www.cs.cornell.edu/~asampson/"}
 ]
