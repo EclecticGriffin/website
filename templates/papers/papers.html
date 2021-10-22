@@ -4,6 +4,7 @@
 <h1>Publications</h1>
 <hr>
 {% for page in section.pages %}
+<div class="publication">
 <span class="pub_title">{{ page.title }} <a class="pub_venue" href="{{ page.extra.conference_link }}"> ({{
         page.extra.conference_name }} {{page.extra.year}})</a></span>
 <div class="pub_details">
@@ -45,6 +46,7 @@
             </span> PDF</a>
         {% endif %}
     </div>
+</div>
 </div>
 
 {% endfor %}
