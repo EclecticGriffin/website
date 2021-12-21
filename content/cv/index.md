@@ -4,9 +4,13 @@ date=2021-12-21
 template="cv.html"
 +++
 
+<div class="cv_block_title">
+
 # Griffin Berlstein
 ## PhD Student, Computer Science
 ## Cornell University
+
+</div>
 
 ---
 
