@@ -366,3 +366,25 @@ div.links {
 .publication {
   margin-bottom: 20px;
 }
+
+div.cv_block {
+  line-height: 0.5em;
+}
+
+.cv_table td {
+  border: 0px;
+  padding: 0px;
+}
+
+.cv_table td.date {
+  float: right;
+}
+
+.cv_table {
+  border: 0px;
+  padding: 0px;
+}
+.cv_table tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th{
+  background-color:white
+  ;
+}
