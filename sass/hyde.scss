@@ -34,6 +34,12 @@
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
+
+@media (max-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
 @media (min-width: 48em) {
   html {
     font-size: 16px;
@@ -375,6 +381,11 @@ div.cv_block_title h1, h2{
   line-height: 0.75em;
 }
 
+div.taing h4 {
+  margin: 0em;
+}
+
+
 .cv_table td {
   border: 0px;
   padding: 0px;
@@ -391,4 +402,19 @@ div.cv_block_title h1, h2{
 .cv_table tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th{
   background-color:white
   ;
+}
+
+@media (min-width: 48em) {
+  .content.no-sidebar {
+    max-width: 45em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 64em) {
+  .content.no-sidebar {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -42,15 +42,19 @@ template="cv.html"
 
 </div>
 
+<div class="taing">
+
 # TAing
 
-### Cornell University
+#### Cornell University
 - _Spring 2020_: CS 4120, "Compilers"
 - _Fall 2019_: CS 1110, "Introduction to Computing"
 
-### Vassar College
+#### Vassar College
 - _Spring 2019_: CMPU 334, "Operating Systems"
 - _Fall 2018_: CMPU 334, "Operating Systems"
 - _Spring 2018_: CMPU 224, "Computer Organization"
 - _Fall 2017_: CMPU 224, "Computer Organization"
 - _Spring 2017_: CMPU 224, "Computer Organization"
+
+</div>
