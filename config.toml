@@ -26,6 +26,7 @@ hyde_links = [
     {name = "Blog", url = "/blog" },
     {name = "Publications", url = "/papers"},
     {name = "Contact", url = "/contact"},
+    {name = "CV", url = "/cv"},
 ]
 
 hyde_socials = [

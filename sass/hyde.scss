@@ -420,10 +420,25 @@ div.taing h4 {
 }
 
 div.cv_pub {
-  line-height: 1.1em;
+  line-height: 1em;
   margin:0em;
 }
-div.cv_pub p.wrap {
+
+div.pub {
+  line-height: 1em;
+  margin-bottom: 2em;
+}
+div.pub p.title {
+  margin-left: 0em;
+
+}
+div.pub p {
+  margin-left: 1em;
+  margin-bottom: 0.4em;
+}
+
+div.pub p.authors {
+  line-height: 1em;
   max-width: 32em;
 }
 

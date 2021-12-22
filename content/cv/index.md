@@ -24,7 +24,7 @@ template="cv.html"
             <td class="date"><p>2019-</p></td>
         <tr>
             <td>
-            <emph>Advisor</emph>: <a href="https://www.cs.cornell.edu/~asampson/"> Adrian Sampson</a>
+            <em>Advisor</em>: <a href="https://www.cs.cornell.edu/~asampson/"> Adrian Sampson</a>
             </td>
     </table>
     <br>
@@ -36,7 +36,7 @@ template="cv.html"
             <td class="date"><p>2015-2019</p></td>
         <tr>
             <td>
-            <emph>Advisor</emph>: <a href="https://www.vassar.edu/faculty/jawaterman"> Jason Waterman</a>
+            <em>Advisor</em>: <a href="https://www.vassar.edu/faculty/jawaterman"> Jason Waterman</a>
             </td>
     </table>
 
@@ -44,30 +44,18 @@ template="cv.html"
 
 # Publications
 <div class="cv_pub">
-    <table class="cv_pub_table">
-        <tr>
-            <td><p><strong>A Toolkit for Designing Hardware DSLs</strong></p></td>
-            <td class="date"><p href="https://woset-workshop.github.io/">WOSET 2021</p></td>
-        <tr>
-            <td><p>Griffin Berlstein, Rachit Nigam, Chris Gyurgyik, Adrian Sampson</p></td>
-        <tr>
-            <td>
-            <em>In Workshop on Open-Source EDA Technology</em>
-            </td>
-    </table>
-    <br>
-    <table class="cv_pub_table">
-        <tr>
-            <td><p class="wrap"><strong>Ancile: Enhancing Privacy for Ubiquitous Computing with Use-Based Privacy</strong></p></td>
-            <td class="date"><p href="https://crises-deim.urv.cat/wpes2019/">WPES 2019</p></td>
-        <tr>
-            <td><p class="wrap">Eugene Bagdasaryan, Griffin Berlstein, Jason Waterman, Eleanor Birrell, Nate Foster, Fred B. Schneider, Deborah Estrin</p></td>
-        <tr>
-            <td>
-            <em>In Workshop on Privacy in the Electronic Society</em>
-            </td>
-    </table>
-
+    <div class="pub">
+        <p class="title"><strong>A Toolkit for Designing Hardware DSLs</strong></p>
+        <p><a href="https://woset-workshop.github.io/">WOSET 2021</a></p>
+        <p class="authors">Griffin Berlstein, Rachit Nigam, Chris Gyurgyik, Adrian Sampson</p>
+        <p><em>In Workshop on Open-Source EDA Technology</em></p>
+    </div>
+    <div class="pub">
+        <p class="title"><strong>Ancile: Enhancing Privacy for Ubiquitous Computing with Use-Based Privacy</strong></p>
+        <p><a href="https://crises-deim.urv.cat/wpes2019/">WPES 2019</a></p>
+        <p class="authors">Eugene Bagdasaryan, Griffin Berlstein, Jason Waterman, Eleanor Birrell, Nate Foster, Fred B. Schneider, Deborah Estrin</p>
+        <p><em>In Workshop on Privacy in the Electronic Society</em></p>
+    </div>
 </div>
 
 
@@ -119,5 +107,30 @@ template="cv.html"
 - _Spring 2018_: CMPU 224, "Computer Organization"
 - _Fall 2017_: CMPU 224, "Computer Organization"
 - _Spring 2017_: CMPU 224, "Computer Organization"
+
+</div>
+
+
+# Honors
+<div class="pub">
+
+_2020_: **Department Nominee**, Microsoft Ada Lovelace Fellowship
+
+_2019_: **Janet Holdeen-adams Prize**, Vassar College Computer Science Dept
+
+_2019_: **Department Honors**, Vassar College Computer Science Dept
+
+_2019_: **General Honors**, Vassar College
+
+</div>
+
+# Volunteering
+<div class="pub">
+
+_2019-2020_: **General Member**, Graduate Students for Gender Inclusion in Computing
+
+_2019-2020_: **Department Representative**, Cornell Graduate and Professional Student Assembly
+
+_2018-2019_: **Secretary**, Vassar College Computer Science Major's Committee
 
 </div>
