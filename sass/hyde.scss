@@ -418,3 +418,30 @@ div.taing h4 {
     margin-right: auto;
   }
 }
+
+div.cv_pub {
+  line-height: 1.1em;
+  margin:0em;
+}
+div.cv_pub p.wrap {
+  max-width: 32em;
+}
+
+
+.cv_pub_table td, tr{
+  border: 0px;
+  padding: 0px;
+}
+
+.cv_pub_table td.date {
+  float: right;
+}
+
+.cv_pub_table {
+  border: 0px;
+  padding: 0px;
+}
+.cv_pub_table tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th{
+  background-color:white
+  ;
+}
