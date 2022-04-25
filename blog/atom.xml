@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Griffin Berlstein - blog</title>
+	<subtitle>Not entirely clueless</subtitle>
+	<link href="https://griffinberlste.in/blog/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://griffinberlste.in/blog/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2020-03-20T14:39:10-04:00</updated>
+	<id>https://griffinberlste.in/blog/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Look there&#x27;s something here</title>
+		<published>2020-03-20T14:39:10-04:00</published>
+		<updated>2020-03-20T14:39:10-04:00</updated>
+		<link href="https://griffinberlste.in/blog/test/" type="text/html"/>
+		<id>https://griffinberlste.in/blog/test/</id>
+		<content type="html">&lt;p&gt;This post exists only to force the website to render something here. I am afraid
+that at the moment I don&#x27;t have anything else to say. Maybe I will at another time.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;There&#x27;s more!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

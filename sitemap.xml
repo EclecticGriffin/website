@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://griffinberlste.in/</loc>
+    </url>
+    <url>
+        <loc>https://griffinberlste.in/blog/</loc>
+    </url>
+    <url>
+        <loc>https://griffinberlste.in/blog/test/</loc>
+        <lastmod>2020-03-20T14:39:10-04:00</lastmod>
+    </url>
+    <url>
+        <loc>https://griffinberlste.in/contact/</loc>
+        <lastmod>2017-09-25</lastmod>
+    </url>
+    <url>
+        <loc>https://griffinberlste.in/cv/</loc>
+        <lastmod>2021-12-21</lastmod>
+    </url>
+    <url>
+        <loc>https://griffinberlste.in/papers/</loc>
+    </url>
+    <url>
+        <loc>https://griffinberlste.in/papers/2021-calyx-woset/</loc>
+        <lastmod>2021-10-22</lastmod>
+    </url>
+    <url>
+        <loc>https://griffinberlste.in/papers/ancile/</loc>
+        <lastmod>2019-10-10</lastmod>
+    </url>
+</urlset>
