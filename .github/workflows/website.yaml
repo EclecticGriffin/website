@@ -1,22 +1,20 @@
-# On every push this script is executed
-name: pages-deploy
+name: github pages
+
 on:
   push:
     branches:
       - master
+
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+  deploy:
+    runs-on: ubuntu-18.04
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v1  # v2 does not have submodules option now
 
       - name: Install and Run Zola
         run: |
           sudo snap install --edge zola
           zola build
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
