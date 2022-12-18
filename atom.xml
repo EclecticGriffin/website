@@ -5,13 +5,21 @@
 	<link href="https://griffinberlste.in/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://griffinberlste.in"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2021-12-21T00:00:00+00:00</updated>
+	<updated>2022-10-22T00:00:00+00:00</updated>
 	<id>https://griffinberlste.in/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Stepwise Debugging for Hardware Accelerators</title>
+		<published>2022-10-22T00:00:00+00:00</published>
+		<updated>2022-10-22T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://griffinberlste.in/papers/cidr-asplos23/" type="text/html"/>
+		<id>https://griffinberlste.in/papers/cidr-asplos23/</id>
+		<content type="html"></content>
+	</entry>
 	<entry xml:lang="en">
 		<title>cv</title>
 		<published>2021-12-21T00:00:00+00:00</published>
 		<updated>2021-12-21T00:00:00+00:00</updated>
-		<link href="https://griffinberlste.in/cv/" type="text/html"/>
+		<link rel="alternate" href="https://griffinberlste.in/cv/" type="text/html"/>
 		<id>https://griffinberlste.in/cv/</id>
 		<content type="html">&lt;div class=&quot;cv_block_title&quot;&gt;
 &lt;h1 id=&quot;griffin-berlstein&quot;&gt;&lt;a href=&quot;..&quot;&gt;Griffin Berlstein&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
@@ -126,7 +134,7 @@
 		<title>A Toolkit for Designing Hardware DSLs</title>
 		<published>2021-10-22T00:00:00+00:00</published>
 		<updated>2021-10-22T00:00:00+00:00</updated>
-		<link href="https://griffinberlste.in/papers/2021-calyx-woset/" type="text/html"/>
+		<link rel="alternate" href="https://griffinberlste.in/papers/2021-calyx-woset/" type="text/html"/>
 		<id>https://griffinberlste.in/papers/2021-calyx-woset/</id>
 		<content type="html"></content>
 	</entry>
@@ -134,7 +142,7 @@
 		<title>Look there&#x27;s something here</title>
 		<published>2020-03-20T14:39:10-04:00</published>
 		<updated>2020-03-20T14:39:10-04:00</updated>
-		<link href="https://griffinberlste.in/blog/test/" type="text/html"/>
+		<link rel="alternate" href="https://griffinberlste.in/blog/test/" type="text/html"/>
 		<id>https://griffinberlste.in/blog/test/</id>
 		<content type="html">&lt;p&gt;This post exists only to force the website to render something here. I am afraid
 that at the moment I don&#x27;t have anything else to say. Maybe I will at another time.&lt;&#x2F;p&gt;
@@ -146,7 +154,7 @@ that at the moment I don&#x27;t have anything else to say. Maybe I will at anoth
 		<title>Ancile: Enhancing Privacy for Ubiquitous Computing with Use-Based Privacy</title>
 		<published>2019-10-10T00:00:00+00:00</published>
 		<updated>2019-10-10T00:00:00+00:00</updated>
-		<link href="https://griffinberlste.in/papers/ancile/" type="text/html"/>
+		<link rel="alternate" href="https://griffinberlste.in/papers/ancile/" type="text/html"/>
 		<id>https://griffinberlste.in/papers/ancile/</id>
 		<content type="html"></content>
 	</entry>
@@ -154,7 +162,7 @@ that at the moment I don&#x27;t have anything else to say. Maybe I will at anoth
 		<title>Contact</title>
 		<published>2017-09-25T00:00:00+00:00</published>
 		<updated>2017-09-25T00:00:00+00:00</updated>
-		<link href="https://griffinberlste.in/contact/" type="text/html"/>
+		<link rel="alternate" href="https://griffinberlste.in/contact/" type="text/html"/>
 		<id>https://griffinberlste.in/contact/</id>
 		<content type="html">&lt;p&gt;Hey there! If you&#x27;d like to get in contact with me about something, please use
 one of the below methods. Looking forward to hearing from you.&lt;&#x2F;p&gt;
