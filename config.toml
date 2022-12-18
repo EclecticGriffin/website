@@ -13,7 +13,7 @@ theme = "hyde"
 
 description = "Not entirely clueless"
 
-generate_feed=true
+generate_feed = true
 
 [markdown]
 # Whether to do syntax highlighting
@@ -23,28 +23,28 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 hyde_links = [
-    {name = "Blog", url = "/blog" },
-    {name = "Publications", url = "/papers"},
-    {name = "Contact", url = "/contact"},
-    {name = "CV", url = "/cv"},
+    { name = "Blog", url = "/blog" },
+    { name = "Publications", url = "/papers" },
+    { name = "Contact", url = "/contact" },
+    { name = "CV", url = "/cv" },
 ]
 
 hyde_socials = [
-    {name = "Github", url = "https://github.com/eclecticgriffin"},
-    {name = "Twitter", url = "https://twitter.com/EclecticGriffin"}
+    { name = "Github", url = "https://github.com/eclecticgriffin" },
+    { name = "Twitter", url = "https://twitter.com/EclecticGriffin" },
 ]
 
-hyde_reverse= false
-hyde_sticky=false
+hyde_reverse = false
+hyde_sticky = false
 
 authors = [
-    {name="Jason Waterman", link="https://www.cs.vassar.edu/~jawaterman/"},
-    {name="Eugene Bagdasaryan", link="https://ebagdasa.github.io/"},
-    {name="Eleanor Birrell", link="https://cs.pomona.edu/~ebirrell/"},
-    {name="Nate Foster", link="https://www.cs.cornell.edu/~jnfoster/"},
-    {name="Fred B. Schneider", link="https://www.cs.cornell.edu/fbs/"},
-    {name="Deborah Estrin", link="https://destrin.smalldata.io/"},
-    {name="Rachit Nigam", link="https://rachitnigam.com/"},
-    {name="Chris Gyurgyik", link="https://cgyurgyik.github.io/"},
-    {name="Adrian Sampson", link="https://www.cs.cornell.edu/~asampson/"}
+    { name = "Jason Waterman", link = "https://www.cs.vassar.edu/~jawaterman/" },
+    { name = "Eugene Bagdasaryan", link = "https://ebagdasa.github.io/" },
+    { name = "Eleanor Birrell", link = "https://cs.pomona.edu/~ebirrell/" },
+    { name = "Nate Foster", link = "https://www.cs.cornell.edu/~jnfoster/" },
+    { name = "Fred B. Schneider", link = "https://www.cs.cornell.edu/fbs/" },
+    { name = "Deborah Estrin", link = "https://destrin.smalldata.io/" },
+    { name = "Rachit Nigam", link = "https://rachitnigam.com/" },
+    { name = "Christophe Gyurgyik", link = "https://cgyurgyik.github.io/" },
+    { name = "Adrian Sampson", link = "https://www.cs.cornell.edu/~asampson/" },
 ]

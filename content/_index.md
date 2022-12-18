@@ -61,18 +61,6 @@ sidebar.
 
 ---
 
-## News
-| When          | What                                        |
-| :------------ | :------------------------------------------ |
-| October 2021  |   I pre-recorded a talk for [WOSET](https://woset-workshop.github.io/)  |
-|                | [Calyx](../pdf/calyx-woset.pdf) workshop paper accepted! |
-|               | I remembered to update this site            |
-| March 2020    | Helped Organize the CS visit day            |
-|               | Presented at Cornell's PLDG                 |
-| November 2019 | [Ancile](pdf/ancile.pdf) appears at WPES'19 |
-| August 2019   | Started my first year at Cornell            |
-| May 2019      | Graduated from Vassar                       |
-
 
 #### About this site
 
