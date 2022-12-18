@@ -1,7 +1,7 @@
 +++
 title= "Stepwise Debugging for Hardware Accelerators"
 template= "papers/li.html"
-date=2022-10-22
+date=2022-12-18
 [extra]
 conference_name ="ASPLOS"
 conference_link= "https://asplos-conference.org/"
