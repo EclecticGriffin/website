@@ -35,16 +35,12 @@ html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
-@media (max-width: 48em) {
-  html {
-    font-size: 16px;
-  }
-}
 @media (min-width: 48em) {
   html {
     font-size: 16px;
   }
 }
+
 @media (min-width: 58em) {
   html {
     font-size: 20px;
@@ -62,9 +58,10 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, .5);
   background-color: #202020;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -94,13 +91,16 @@ html {
   padding-left: 0;
   list-style: none;
 }
+
 .sidebar-nav-item {
   display: block;
 }
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
+
 .sidebar-nav-item.active {
   font-weight: bold;
 }
@@ -114,22 +114,22 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .sidebar-sticky {
     position: absolute;
-    right:  1rem;
+    right: 1rem;
     bottom: 1rem;
-    left:   1rem;
+    left: 1rem;
   }
 
   // The #{} stuff is needed because of https://github.com/sass/sass/issues/2378
   @supports(padding: m#{a}x(0px)) {
     body:not(.layout-reverse) .sidebar-sticky {
-        // Notch is to left of sidebar; pad appropriately
-        padding-left: m#{a}x(1rem, env(safe-area-inset-left));
+      // Notch is to left of sidebar; pad appropriately
+      padding-left: m#{a}x(1rem, env(safe-area-inset-left));
     }
 
     .layout-reverse .sidebar-sticky {
-        // Support iPhone X rounded corners and notch in landscape
-        // Notch is to right of sidebar; pad appropriately
-        padding-right: m#{a}x(1rem, env(safe-area-inset-right));
+      // Support iPhone X rounded corners and notch in landscape
+      // Notch is to right of sidebar; pad appropriately
+      padding-right: m#{a}x(1rem, env(safe-area-inset-right));
     }
   }
 }
@@ -142,19 +142,19 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
 @supports(padding: m#{a}x(0px)) {
   body:not(.layout-reverse) .content {
-      // Notch is to right of content text; pad it appropriately
-      padding-right: m#{a}x(1rem, env(safe-area-inset-right));
+    // Notch is to right of content text; pad it appropriately
+    padding-right: m#{a}x(1rem, env(safe-area-inset-right));
   }
 
   .layout-reverse .content {
-      // Notch is to left of content text; pad it appropriately
-      padding-left: m#{a}x(1rem, env(safe-area-inset-left));
+    // Notch is to left of content text; pad it appropriately
+    padding-left: m#{a}x(1rem, env(safe-area-inset-left));
   }
 }
 
@@ -186,6 +186,7 @@ a.sidebar-nav-item:focus {
     left: auto;
     right: 0;
   }
+
   .layout-reverse .content {
     margin-left: 2rem;
     margin-right: 20rem;
@@ -214,6 +215,7 @@ a.sidebar-nav-item:focus {
 .theme-base-08 .sidebar {
   background-color: #ac4142;
 }
+
 .theme-base-08 .content a,
 .theme-base-08 .related-posts li a:hover {
   color: #ac4142;
@@ -223,6 +225,7 @@ a.sidebar-nav-item:focus {
 .theme-base-09 .sidebar {
   background-color: #d28445;
 }
+
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
   color: #d28445;
@@ -232,6 +235,7 @@ a.sidebar-nav-item:focus {
 .theme-base-0a .sidebar {
   background-color: #f4bf75;
 }
+
 .theme-base-0a .content a,
 .theme-base-0a .related-posts li a:hover {
   color: #f4bf75;
@@ -241,6 +245,7 @@ a.sidebar-nav-item:focus {
 .theme-base-0b .sidebar {
   background-color: #90a959;
 }
+
 .theme-base-0b .content a,
 .theme-base-0b .related-posts li a:hover {
   color: #90a959;
@@ -250,6 +255,7 @@ a.sidebar-nav-item:focus {
 .theme-base-0c .sidebar {
   background-color: #75b5aa;
 }
+
 .theme-base-0c .content a,
 .theme-base-0c .related-posts li a:hover {
   color: #75b5aa;
@@ -259,6 +265,7 @@ a.sidebar-nav-item:focus {
 .theme-base-0d .sidebar {
   background-color: #6a9fb5;
 }
+
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
   color: #6a9fb5;
@@ -268,6 +275,7 @@ a.sidebar-nav-item:focus {
 .theme-base-0e .sidebar {
   background-color: #aa759f;
 }
+
 .theme-base-0e .content a,
 .theme-base-0e .related-posts li a:hover {
   color: #aa759f;
@@ -277,6 +285,7 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .sidebar {
   background-color: #8f5536;
 }
+
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
@@ -285,12 +294,14 @@ a.sidebar-nav-item:focus {
 .table-profile td {
   border: 0px;
 }
+
 .table-profile {
   border: 0px;
 }
-.table-profile tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th{
-  background-color:white
-  ;
+
+.table-profile tbody tr:nth-child(2n+1) td,
+tbody tr:nth-child(2n+1) th {
+  background-color: white;
 }
 
 .inline-svg {
@@ -313,11 +324,13 @@ a.button_link {
   letter-spacing: 0.3pt;
   line-height: 1em;
 }
+
 a.button_link:hover {
   background-color: #003333;
   color: white;
   transition: color 0.5s, background-color 0.5s;
 }
+
 /* a.button_link.pdf_link:before,
 a.button_link.talk_link:before {
   font-family: "Font Awesome 5 Free";
@@ -336,7 +349,7 @@ div.pub_details {
 }
 
 div.pub_details li {
- list-style-type: none;
+  list-style-type: none;
 }
 
 .pub_venue {
@@ -349,10 +362,12 @@ div.pub_details li {
   font-weight: bold;
   font-size: 18px;
 }
+
 .pub_title {
   font-weight: bold;
   font-size: 21;
 }
+
 .pub_authors a {
   color: #333;
   border-color: #333;
@@ -377,7 +392,8 @@ div.cv_block {
   line-height: 0.5em;
 }
 
-div.cv_block_title h1, h2{
+div.cv_block_title h1,
+h2 {
   line-height: 0.75em;
 }
 
@@ -399,9 +415,10 @@ div.taing h4 {
   border: 0px;
   padding: 0px;
 }
-.cv_table tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th{
-  background-color:white
-  ;
+
+.cv_table tbody tr:nth-child(2n+1) td,
+tbody tr:nth-child(2n+1) th {
+  background-color: white;
 }
 
 @media (min-width: 48em) {
@@ -421,17 +438,19 @@ div.taing h4 {
 
 div.cv_pub {
   line-height: 1em;
-  margin:0em;
+  margin: 0em;
 }
 
 div.pub {
   line-height: 1em;
   margin-bottom: 2em;
 }
+
 div.pub p.title {
   margin-left: 0em;
 
 }
+
 div.pub p {
   margin-left: 1em;
   margin-bottom: 0.4em;
@@ -443,7 +462,8 @@ div.pub p.authors {
 }
 
 
-.cv_pub_table td, tr{
+.cv_pub_table td,
+tr {
   border: 0px;
   padding: 0px;
 }
@@ -456,7 +476,8 @@ div.pub p.authors {
   border: 0px;
   padding: 0px;
 }
-.cv_pub_table tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th{
-  background-color:white
-  ;
+
+.cv_pub_table tbody tr:nth-child(2n+1) td,
+tbody tr:nth-child(2n+1) th {
+  background-color: white;
 }

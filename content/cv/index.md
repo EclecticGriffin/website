@@ -14,6 +14,7 @@ template="cv.html"
 
 ---
 
+
 # Education
 <div class="cv_block">
     <table class="cv_table">

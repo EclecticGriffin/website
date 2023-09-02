@@ -9,4 +9,5 @@ paper_link= "pdf/ancile.pdf"
 year= 2019
 draft= false
 authors= ["Eugene Bagdasaryan", "Griffin Berlstein", "Jason Waterman", "Eleanor Birrell", "Nate Foster", "Fred B. Schneider", "Deborah Estrin"]
+type= "conference"
 +++
