@@ -481,3 +481,11 @@ tr {
 tbody tr:nth-child(2n+1) th {
   background-color: white;
 }
+
+article.post p {
+  margin-bottom: 0.1rem;
+}
+
+div.post p {
+  margin-bottom: 0.75rem;
+}
