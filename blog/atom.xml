@@ -5,20 +5,20 @@
     <link href="https://griffinberlste.in/blog/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="https://griffinberlste.in/blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2020-03-20T14:39:10-04:00</updated>
+    <updated>2023-09-02T00:00:00+00:00</updated>
     <id>https://griffinberlste.in/blog/atom.xml</id>
     <entry xml:lang="en">
-        <title>Look there&#x27;s something here</title>
-        <published>2020-03-20T14:39:10-04:00</published>
-        <updated>2020-03-20T14:39:10-04:00</updated>
+        <title>In Remembrance</title>
+        <published>2023-09-02T00:00:00+00:00</published>
+        <updated>2023-09-02T00:00:00+00:00</updated>
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://griffinberlste.in/blog/test/" type="text/html"/>
-        <id>https://griffinberlste.in/blog/test/</id>
+        <link rel="alternate" href="https://griffinberlste.in/blog/2023-09-02-priya/" type="text/html"/>
+        <id>https://griffinberlste.in/blog/2023-09-02-priya/</id>
         
-        <summary type="html">&lt;p&gt;This post exists only to force the website to render something here. I am afraid
-that at the moment I don’t have anything else to say. Maybe I will at another time.&lt;&#x2F;p&gt;
+        <summary type="html">&lt;p&gt;&lt;strong&gt;cw: death and grief.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;an attempt to process the death of a friend&lt;&#x2F;p&gt;
 </summary>
         
     </entry>
