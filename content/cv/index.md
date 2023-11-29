@@ -53,6 +53,7 @@ template="cv.html"
         <p><a href="https://asplos-conference.org/">ASPLOS 2023</a></p>
         <p class="authors">Griffin Berlstein, Rachit Nigam, Christophe Gyurgyik, Adrian Sampson</p>
         <p><em>In Architectural Support for Programming Languages and Operating Systems</em></p>
+        <p><strong>Distinguished Artifact Award</strong></p>
     </div>
     <div class="pub">
         <p class="title"><strong>A Toolkit for Designing Hardware DSLs</strong></p>
