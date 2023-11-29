@@ -24,6 +24,9 @@ template="cv.html"
             <td><p>PhD, Computer Science</p></td>
             <td class="date"><p>2019-</p></td>
         <tr>
+        <td><p>Masters, Computer Science</p></td>
+            <td class="date"><p>2023 </p></td>
+        <tr>
             <td>
             <em>Advisor</em>: <a href="https://www.cs.cornell.edu/~asampson/"> Adrian Sampson</a>
             </td>
@@ -45,10 +48,16 @@ template="cv.html"
 
 # Publications
 <div class="cv_pub">
+<div class="pub">
+        <p class="title"><strong>Stepwise Debugging for Hardware Accelerators</strong></p>
+        <p><a href="https://asplos-conference.org/">ASPLOS 2023</a></p>
+        <p class="authors">Griffin Berlstein, Rachit Nigam, Christophe Gyurgyik, Adrian Sampson</p>
+        <p><em>In Architectural Support for Programming Languages and Operating Systems</em></p>
+    </div>
     <div class="pub">
         <p class="title"><strong>A Toolkit for Designing Hardware DSLs</strong></p>
         <p><a href="https://woset-workshop.github.io/">WOSET 2021</a></p>
-        <p class="authors">Griffin Berlstein, Rachit Nigam, Chris Gyurgyik, Adrian Sampson</p>
+        <p class="authors">Griffin Berlstein, Rachit Nigam, Christophe Gyurgyik, Adrian Sampson</p>
         <p><em>In Workshop on Open-Source EDA Technology</em></p>
     </div>
     <div class="pub">
@@ -68,6 +77,13 @@ template="cv.html"
         <tr>
             <td><p>Cornell University</p></td>
             <td class="date"><p>2020-</p></td>
+    </table>
+      <table class="cv_table">
+        <tr>
+            <td><p><strong>Hardware Intern</strong></p></td>
+        <tr>
+            <td><p>OctoML</p></td>
+            <td class="date"><p>Summer 2022</p></td>
     </table>
     <table class="cv_table">
         <tr>
