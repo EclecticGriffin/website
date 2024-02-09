@@ -2,19 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>Griffin Berlstein</title>
     <subtitle>Not entirely clueless</subtitle>
-    <link href="https://griffinberlste.in/atom.xml" rel="self" type="application/atom+xml"/>
-    <link href="https://griffinberlste.in"/>
+    <link rel="self" type="application/atom+xml" href="https://griffinberlste.in/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://griffinberlste.in"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-09-02T00:00:00+00:00</updated>
+    <updated>2024-02-09T00:00:00+00:00</updated>
     <id>https://griffinberlste.in/atom.xml</id>
+    <entry xml:lang="en">
+        <title>On Asking the Wrong Questions</title>
+        <published>2024-02-09T00:00:00+00:00</published>
+        <updated>2024-02-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://griffinberlste.in/draft/first-project-draft-91061979/"/>
+        <id>https://griffinberlste.in/draft/first-project-draft-91061979/</id>
+        
+        <summary type="html">&lt;p&gt;This is the story of my first real research project and why I regret working on
+it.&lt;&#x2F;p&gt;
+&lt;p&gt;cw: TK&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
     <entry xml:lang="en">
         <title>In Remembrance</title>
         <published>2023-09-02T00:00:00+00:00</published>
         <updated>2023-09-02T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://griffinberlste.in/blog/2023-09-02-priya/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://griffinberlste.in/blog/2023-09-02-priya/"/>
         <id>https://griffinberlste.in/blog/2023-09-02-priya/</id>
         
         <summary type="html">&lt;p&gt;&lt;strong&gt;cw: death and grief.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
@@ -26,26 +54,38 @@
         <title>Stepwise Debugging for Hardware Accelerators</title>
         <published>2022-12-18T00:00:00+00:00</published>
         <updated>2022-12-18T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://griffinberlste.in/papers/cidr-asplos23/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://griffinberlste.in/papers/cidr-asplos23/"/>
         <id>https://griffinberlste.in/papers/cidr-asplos23/</id>
         
-        <content type="html"></content>
+        <content type="html" xml:base="https://griffinberlste.in/papers/cidr-asplos23/"></content>
         
     </entry>
     <entry xml:lang="en">
         <title>cv</title>
         <published>2021-12-21T00:00:00+00:00</published>
         <updated>2021-12-21T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://griffinberlste.in/cv/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://griffinberlste.in/cv/"/>
         <id>https://griffinberlste.in/cv/</id>
         
-        <content type="html">&lt;div class=&quot;cv_block_title&quot;&gt;
+        <content type="html" xml:base="https://griffinberlste.in/cv/">&lt;div class=&quot;cv_block_title&quot;&gt;
 &lt;h1 id=&quot;griffin-berlstein&quot;&gt;&lt;a href=&quot;..&quot;&gt;Griffin Berlstein&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;phd-student-computer-science&quot;&gt;PhD Student, Computer Science&lt;&#x2F;h2&gt;
 &lt;h2 id=&quot;cornell-university&quot;&gt;Cornell University&lt;&#x2F;h2&gt;
@@ -176,39 +216,57 @@
         <title>A Toolkit for Designing Hardware DSLs</title>
         <published>2021-10-22T00:00:00+00:00</published>
         <updated>2021-10-22T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://griffinberlste.in/papers/2021-calyx-woset/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://griffinberlste.in/papers/2021-calyx-woset/"/>
         <id>https://griffinberlste.in/papers/2021-calyx-woset/</id>
         
-        <content type="html"></content>
+        <content type="html" xml:base="https://griffinberlste.in/papers/2021-calyx-woset/"></content>
         
     </entry>
     <entry xml:lang="en">
         <title>Ancile: Enhancing Privacy for Ubiquitous Computing with Use-Based Privacy</title>
         <published>2019-10-10T00:00:00+00:00</published>
         <updated>2019-10-10T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://griffinberlste.in/papers/ancile/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://griffinberlste.in/papers/ancile/"/>
         <id>https://griffinberlste.in/papers/ancile/</id>
         
-        <content type="html"></content>
+        <content type="html" xml:base="https://griffinberlste.in/papers/ancile/"></content>
         
     </entry>
     <entry xml:lang="en">
         <title>Contact</title>
         <published>2017-09-25T00:00:00+00:00</published>
         <updated>2017-09-25T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://griffinberlste.in/contact/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://griffinberlste.in/contact/"/>
         <id>https://griffinberlste.in/contact/</id>
         
-        <content type="html">&lt;p&gt;Hey there! If you’d like to get in contact with me about something, please use
+        <content type="html" xml:base="https://griffinberlste.in/contact/">&lt;p&gt;Hey there! If you’d like to get in contact with me about something, please use
 one of the below methods. Looking forward to hearing from you.&lt;&#x2F;p&gt;
 &lt;p style=&quot;margin:auto; margin-top:0.5em&quot;&gt; &lt;strong&gt;Academic Email:&lt;&#x2F;strong&gt; griffin [at] cs [dot] cornell [dot] edu&lt;&#x2F;p&gt;
 </content>
