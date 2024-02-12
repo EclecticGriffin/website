@@ -1,5 +1,7 @@
 title = "Griffin Berlstein"
 
+author = "Griffin Berlstein"
+
 # The URL the site will be built for
 base_url = "https://griffinberlste.in"
 
@@ -9,20 +11,21 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-theme = "hyde"
+# theme = "hyde"
 
 description = "Not entirely clueless"
 
-generate_feed = true
+generate_feed = false
 
 [slugify]
 paths_keep_dates = true
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
+external_links_target_blank = true
+external_links_no_follow = true
+external_links_no_referrer = true
 smart_punctuation = true
+highlight_code = true
 
 [extra]
 # Put all your custom variables here
@@ -40,6 +43,8 @@ hyde_socials = [
 
 hyde_reverse = true
 hyde_sticky = false
+
+hyde_theme = ""
 
 authors = [
     { name = "Jason Waterman", link = "https://www.cs.vassar.edu/~jawaterman/" },
