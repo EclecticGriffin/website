@@ -15,17 +15,36 @@
         <author>
           <name>
             
-              Unknown
+              Griffin Berlstein
             
           </name>
         </author>
         
         <link rel="alternate" type="text/html" href="https://griffinberlste.in/blog/2023-09-02-priya/"/>
         <id>https://griffinberlste.in/blog/2023-09-02-priya/</id>
-        
+        <!-- 
         <summary type="html">&lt;p&gt;&lt;strong&gt;cw: death and grief.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;an attempt to process the death of a friend&lt;&#x2F;p&gt;
 </summary>
-        
+         -->
+        <content type="html" xml:base="https://griffinberlste.in/blog/2023-09-02-priya/">&lt;p&gt;&lt;strong&gt;cw: death and grief.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;an attempt to process the death of a friend&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;I have tried and failed to write this post many times. But making sense of death is hard, all the more so in an American culture which abhors the discussion of what waits for us all.&lt;&#x2F;p&gt;
+&lt;p&gt;Last weekend my friend, colleague, and labmate &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;priyasrikumar.com&#x2F;&quot;&gt;Priya Srikumar&lt;&#x2F;a&gt; died in a car accident. Putting my grief into words is an impossible task but I’ll try to capture what I can and attempt to convey, however imperfectly, the ways in which they touched my life. My friend Rachit has put together a &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;rachit.pl&#x2F;post&#x2F;priya&#x2F;&quot;&gt;memorial&lt;&#x2F;a&gt; post for Priya which I encourage you to read and contribute to if you knew them. This will be like that, albeit messier.&lt;&#x2F;p&gt;
+&lt;p&gt;I find myself lingering on—and shedding tears over—the small things most. By and large, knowing someone means sharing a lot of minor moments—inconsequential enough to be omitted from synopses yet, large enough in their multiplicity to encompass the entire thing. In remembering Priya, I’d like to share some of these moments.&lt;&#x2F;p&gt;
+&lt;p&gt;I met Priya in my first year of grad school first in the programming languages discussion group and then later as their TA for the compilers course. I think they were more motivated in that course than I have ever been in my life.&lt;&#x2F;p&gt;
+&lt;p&gt;During the beginning of the pandemic I started a science fiction book club over Zoom as a way to keep people more directly in contact. Priya, still an undergrad, attended some of these meetings and I got to know them better through literary analysis. I remain impressed that they broke past the awkwardness of being the only undergrad in the (zoom) room.&lt;&#x2F;p&gt;
+&lt;p&gt;Later in their PhD career we caught up over brunch in the local cat cafe, discussing research project, managing motivation, and the fact that it seems mathematically impossible to read Enough Papers™️. Priya wasn’t 100% satisfied with how things were going and we spent some time talking about how to know if your current advisor is a good fit and what my experience of switching advisors was like. The conversation continued into the cat room. I highly recommend talking to your friends while playing with cats, it adds a natural bit of levity to heavy conversations and it’s easy to take pauses to look at the cats being silly-little-guys.&lt;&#x2F;p&gt;
+&lt;p&gt;During their transition to our lab, Capra, I got to be the one to add them to the Capra Slack and was privileged to do some pair programming with them. After their first Calyx meeting, they asked me if they’d done alright. Priya was concerned that they had asked too many questions and derailed the meeting. I assured them that it was not uncommon for us to not get through the entire agenda and that it was good for them to ask questions. Priya was very good at asking the right questions to get to the heart of a problem or thing they weren’t understanding. This was an incredible talent that I have yet to develop and I think this, along with their curiosity, made them a wonderful and undoubtedly talented researcher. To say that there is a hole in my heart and the lab is a gross understatement. It is so unfair.&lt;&#x2F;p&gt;
+&lt;p&gt;During one of our pair programming sessions, I introduced Priya to some of the tools I liked working with and how I setup my machine. It is always nice to show people things that they will find useful. We talked about my preference to have sidebars on the right side of screens, rather than the more typical left, which I justified by my left &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Ocular_dominance&quot;&gt;eye dominance&lt;&#x2F;a&gt;. As it turns out, Priya was also left eye dominant, rather than the more common right eye. They adopted my sidebar preference later too, though I should stress that this is &lt;em&gt;preference&lt;&#x2F;em&gt; which I pretend justify with eye dominance because it’s a cool fact that a lot of people don’t seem to know about.&lt;&#x2F;p&gt;
+&lt;p&gt;The last time we saw each other in person was during ASPLOS ’23 in March of this year. We were rooming together in the hotel but because of my wretched luck with travel plans meant that I awkwardly had to sneak into the room after midnight. I collapsed almost immediately but fortunately didn’t wake them up; I did however neglect to set an alarm. Priya let me sleep which was the objectively correct choice given my exhaustion. In the room, we’d chit-chat about random things and they gave me last minute notes on my presentation visuals. And although Rachit has already said it, it merits repeating: Priya was disturbingly good at networking, far better than I could ever hope to be. It was truly impressive watching them interact with people.&lt;&#x2F;p&gt;
+&lt;p&gt;We had breakfast together at a restaurant on the last day of the conference. Part of their meal was an absurdly decadent hot chocolate that only a restaurant can really justify. I find it deeply troubling that I have a photo of that hot chocolate but not of them from that trip.&lt;&#x2F;p&gt;
+&lt;p&gt;Our last real conversation was on Zoom near the beginning of August. It was painfully normal—neither of us aware that it would be our last, though we would see each other over Zoom briefly during a later lab status meeting—and we mostly caught up and discussed the semester to come. They were undecided between taking a semester off for an internship or continuing on their current research during the semester. I helped them sort through the pros and cons as I saw them but didn’t put my finger on the scale. A cruel part of my brain wonders if things would be different had I, for some reason, pushed them away from the internship.&lt;&#x2F;p&gt;
+&lt;p&gt;There are many many things that I could try to include, but it is impossible to distill an entire relationship into a set of moments and individual scenes easily understood. This leaves out many discussions over text and in-person about music, video games, and our shared desire to create art outside of our research. This leaves out many tears, hugs, meals, and whispered assurances that things will be okay. This leaves out the experience of seeing them laugh, smile, and their intense enthusiasm. Would that I could convey it all.&lt;&#x2F;p&gt;
+&lt;p&gt;If you, reader, take one thing away from my scrawl let it be this: Priya existed, mattered, was cherished by many, and is dearly missed by myself and many others.&lt;&#x2F;p&gt;
+&lt;p&gt;Goodbye Priya. May your memory be a blessing.&lt;&#x2F;p&gt;
+</content>
     </entry>
 </feed>
