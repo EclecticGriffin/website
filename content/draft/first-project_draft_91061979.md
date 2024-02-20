@@ -6,8 +6,6 @@ draft: false
 
 This is the story of my first real research project and why I regret working on
 it.
-
-cw: TK
 <!-- more -->
 
 ---
@@ -32,7 +30,7 @@ this, I still feel a great deal of guilt around this project because I now
 believe it to have been asking the wrong question and potentially harmful.
 
 The elevator pitch for the REU project ended up being quite simple. When
-clustering data a simple and straightforward choice is using the K-Means
+clustering data, a simple and straightforward choice is using the K-Means
 algorithm. Simply put in how many clusters you'd like to find and let the
 computer do the rest. K-Means works by selecting a number of centroids equal to
 the number of desired clusters, organizing the data by nearest centroid, and
@@ -40,7 +38,8 @@ finally recomputing the centroids for the new clusters. The process repeats
 iteratively until convergence.
 
 The thesis of this project was that people don't often alter the default
-settings for the algorithm and as such could be producing "wrong"
+settings for the algorithm, like the desired number of clusters and
+initialization parameters, and as such could be producing "wrong"
 clusters---wrongness here is a somewhat subjective quality---depending on their
 choices or lack thereof. In particular, the project focused on the distance
 metric used in the algorithm which in most cases defaults to euclidean distance,
@@ -60,12 +59,23 @@ in, since it was readily available online.
 This means that---much to my horror---the project was effectively about
 "improving" predictive policing. At the time, I didn't entirely see the problem
 in this since wouldn't it be better if the clusters were "more accurate"?
-Particularly if that meant the "correct" cluster for over-policed populations
-was one assigned a lower threat level. But of course, that reasoning can also
-cut the other direction and could just as easily suggest that communities of
-Black people were under-policed, so ultimately the argument would simply have to
-be that the clusters produced with euclidean distance are "wrong" in a
-fundamental sense and geodesic distance should be used instead.
+Suppose that there are two clusters, **L** and **H**, in our data. **L** is considered
+*low-risk* while **H** is considered *high-risk*. If the clusters change based on the
+choice of distance metric then some people could be moved from **L** to **H** or
+vice-versa.
+
+Thus the argument goes that if the "correct" cluster for some over-policed
+populations was **L** rather than **H**, then you could say that the euclidean
+clustering has the potential to cause harm to that population and is thus
+biased. We can then attempt to quantify the "bias potential" based on the
+percentage of such communities that were "misclassified" between the two cluster
+maps.
+
+But of course, this reasoning can also cut the other direction and could just as
+easily suggest that communities of marginalized people were under-policed, i.e.,
+moving people from **L** to **H**. So ultimately the argument would simply have
+to be that the clusters produced with euclidean distance are wrong in their
+essence, rather than impact, and geodesic distance should be used instead.
 
 In my opinion, the end result is something that at best changes very little, and
 at worse grants legitimacy to the police and the practice of predictive
@@ -76,15 +86,16 @@ cruel and fundamentally racist organization designed to mete out violence on the
 populace. And that should be unacceptable to you.
 
 I am extremely thankful that my time with the project was limited and that my
-work likely had little to do with future efforts/impacts. And to my knowledge,
-there wasn't major adoption of the work. But it still haunts me and acts as a
-warning going forward.
+work likely had little to do with future efforts/impacts. And to the best of my
+knowledge, there wasn't major adoption of the work. But it still haunts me and
+acts as a warning going forward.
 
 The project, as I see it, was asking the wrong question. While there may be
-answers to "Can the choice of distance metric alter crime data clustering? Would
-this impact clustering on over-policed communities?" The question tacitly
-accepts the practice of predictive policing and the role of the police, neither
-of which we should find acceptable.
+answers to "Can the choice of distance metric alter data clustering on
+geographic data? What about if we cluster crime data? Would this impact
+clustering on over-policed communities?" The question tacitly accepts the
+practice of predictive policing and the role of the police, neither of which we
+should find acceptable.
 
 As researchers, particularly graduate ones, it can be easy to forget the many
 chains of obligation and interest binding us. The day to day is mostly doing
@@ -133,19 +144,36 @@ sure---this possibility should horrify you.
 
 This is not to say that the members of this project should bear the
 responsibility for the military's actions, but nor does it release them from
-culpability. If you help make or improve weapons then you do not get to turn
-away from the consequences, however many steps removed you are. All software, I
-fear, suffers from this problem far more than we realize. Github contracts with
-ICE. Many of us use Github. Does that mean we are supporting the atrocities ICE
-commits by continuing to use Github and in doing so maintaining its dominance in
-the space? There are no easy answers here.
+culpability. *If you help make or improve weapons then you do not get to turn
+away from the consequences, however many steps removed you are.* All software, I
+fear, suffers from this problem far more than we realize. Like it or not, we are
+irrevocably connected with one another. Our decisions ripple outward.
 
-At the risk of being labeled a hyperbolic bleeding heart, let me say this: these
-are the stakes. If you do not consider how the tools you make will be used, you
-will ultimately aid in the killing of others. In the subjugation of others. In
-the perpetuation of systems of oppression that bind us all. You will, in your
-ignorance, sharpen the teeth of monsters or, worse still, teach them to wield
-fire.
+A final example: Github contracts with ICE. Many of us use Github to develop our
+tools, to do our research, to hopefully improve the world with our work. Does
+that mean we are supporting the atrocities ICE commits by continuing to use
+Github and in doing so maintaining its dominance in the space? This problem
+exists for all major platforms and most tech companies: Facebook subverts
+democracy, Amazon abuses workers and hosts a significant portion of the
+internet, not all of which can be said to be good, and there are no shortages of
+things to lambast Google over. And that is just what we, the public, happen to
+know about. We can be nearly certain that there are plenty of backroom deals we
+would find equally, if not more troubling.
+
+There is the common adage that "There is no ethical consumption under
+capitalism" which I often see misused with the implied follow-on: "so I'll just
+do whatever". Rather, I think it is the recognition that we are tied up in
+oppressive systems beyond our control which we, as individuals, cannot topple
+alone nor fully divest from. But that does not absolve us of responsibility. In
+our shared humanity, *we are obligated* to consider our impacts on the world.
+This applies all the more for the tools we make and the institutions we support.
+
+So, at the risk of being labeled a hyperbolic bleeding heart, let me say this:
+these are the stakes. If you do not consider how the tools you make will be
+used, you will ultimately aid in the killing of others. In the subjugation of
+others. In the perpetuation of systems of oppression that bind us all. You will,
+in your ignorance, sharpen the teeth of monsters or, worse still, teach them to
+wield fire.
 
 I wish I had some words of hope or advice to end on. But computers are
 ultimately tools, and we too can use tools to make things better. I hope we do.
