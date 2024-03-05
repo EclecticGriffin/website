@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <!-- viewport-fit=cover is to support iPhone X rounded corners and notch in landscape-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+  <title>Griffin Berlstein</title>
+
+  <link rel="icon" href="https://griffinberlste.in/favicon.png" type="image/png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://griffinberlste.in/print.css" media="print">
+  <link rel="stylesheet" href="https://griffinberlste.in/poole.css">
+  <link rel="stylesheet" href="https://griffinberlste.in/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!--  -->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://griffinberlste.in/blog/atom.xml">
+  
+
+
+  
+  
+</head>
+
+<body class=" layout-reverse">
+  
+  <div class="sidebar">
+    <div class="sidebar-about">
+      
+      <a href="https:&#x2F;&#x2F;griffinberlste.in">
+        <h1>Griffin Berlstein</h1>
+      </a>
+      
+      <p class="lead">Not entirely clueless</p>
+      
+      
+    </div>
+
+    <ul class="sidebar-nav">
+      
+      
+      <li class="sidebar-nav-item"><a href="&#x2F;blog">Blog</a></li>
+      
+      <li class="sidebar-nav-item"><a href="&#x2F;papers">Publications</a></li>
+      
+      <li class="sidebar-nav-item"><a href="&#x2F;contact">Contact</a></li>
+      
+      <li class="sidebar-nav-item"><a href="&#x2F;cv">CV</a></li>
+      
+      <hr>
+      
+      <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;github.com&#x2F;eclecticgriffin">Github</a></li>
+      
+      <li class="sidebar-nav-item"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;EclecticGriffin">Twitter</a></li>
+      
+      
+    </ul>
+
+    <div class="container sidebar-sticky">
+      <p>&copy 2024. All rights reserved.</p>
+    </div>
+  </div>
+  
+
+  <div class="content container">
+    
+<div class="post">
+  <h1 class="post-title">So You&#x27;ve Decided to Start a Podcast</h1>
+  <span class="post-date">2024-03-05</span>
+  <p>A loose collection of audio tips from someone with a small amount of experience and a lot of opinions.</p>
+<span id="continue-reading"></span>
+<hr />
+<p>If you’ve decided to start an interview or talk-heavy unscripted podcast but don’t know the first thing about audio, then this little scrawl may be for you. I’ll take you through a few basics, common pitfalls, and approaches so that your podcast doesn’t annoy me personally, which I think we can all agree is an egregious offense. I am, of course, far from an expert on audio engineering and recommend you seek out more authoritative resources for deeper insights and tooling tips.</p>
+<p>I am specifically concerned with interview-style podcasts or those featuring a fair bit of unscripted talking, of which there are many examples. I am also not considering podcasts with a video component as they introduce more constraints on editing—with a potentially questionable benefit to the end product. This includes podcasts that are recorded from a livestream as they usually cannot be edited, and if a feed exists it will certainly be a mirror of the stream. There are benefits and tradeoffs to the above approaches, but I am of the opinion that podcasts should be edited, particularly if they are unscripted and will discuss this a bit more in a later section. Now let’s get to it.</p>
+<h1 id="recording">Recording</h1>
+<p>Before you can edit, you need to record your audio in the first place. How you choose to record things will heavily impact your end quality. And while good editing can do a lot, audio is sometimes unsalvageable regardless of fancy microphones and recording equipment. Chances are you already have everything you need to record decent audio already!</p>
+<h2 id="basics">Basics</h2>
+<p>You need a <strong>microphone</strong> and some <strong>device</strong>, probably a computer, on which to record your audio. Owing to <em><strong>THE EVENT</strong></em>, you likely have some setup already for video conferencing whose microphone is perfectly functional. You want to avoid using microphones built into laptops and webcams as they tend to sound bad and are hard to position appropriately. In a pinch, smartphones can be used as a dedicated microphone by holding them upside down and recording directly to the device.</p>
+<p>Whatever you are using, it is crucial that you are <em>directly recording</em> the microphone’s input. For computers you can use the free software Audacity to do this. For phones, use some audio recorder that allows you to move the sound file off the device. For programs/software that dumps directly to a file, be sure that it is recording to an uncompressed or lossless file format such as .wav (generally uncompressed) or .flac (lossless compression) rather than lossy compressed formats such as mp3. Since your final podcast audio will most likely be distributed in a lossy compressed format, using lossy raw audio can degrade quality and introduce artifacts, analogous to image “deep frying”.</p>
+<h2 id="for-remote-recordings">For Remote Recordings</h2>
+<p>In situations where at least one or more participants are remote, you will need to be communicating over some form of video/audio call. <strong>Every member (or device) must record their local audio separately.</strong> A voice call may be recorded as a backup, but in most cases this should not be your primary audio track as speakers will not be separated and any network artifacts and glitches will be present in the track. This is the most common mistake I see and it makes for terrible audio. So if you take nothing else away from this: please please please don’t record a zoom call.</p>
+<p>The main reason people don’t have separate recording tracks for each participant is that it requires everyone to have some willingness or technical skill which is not always practical, particularly when conducting an interview. In such cases there are tools such as Zencastr and the Craig Discord Bot which can help, though they are not without tradeoffs and limitations. If no such tool works and one person cannot/won’t do their own local recording, using a recorded audio-call can suffice for that participant, but to the maximum extent possible you want separate locally recorded audio tracks for every participant.</p>
+<h2 id="for-in-person">For In Person</h2>
+<p>Much of the same rules apply for recording in a single shared space. In general, it is best to have a separate microphone on every participant with the added caveat that microphones should be configured such that minimal noise from the other participants. Of course this requires a fair bit of equipment and is not always practical, especially given that it requires more robust mixing equipment than most people will have on hand. If you only have one microphone available then try to position all speakers at around the same distance from the mic, this is likely to be uncomfortable for highly directional microphones but can sometimes work alright for omni-direction setups. Be sure that you do a sound check before recording and avoid moving too far away from the mic to avoid dropoff and otherwise bad sound.</p>
+<h2 id="mic-configuration-and-soundcheck">Mic configuration and soundcheck</h2>
+<p>Okay, let’s talk microphones. Ideally you’ll have some sort of stand you can place the microphone on/in. These can come with the microphone, be a separate mounted arm, or be assembled out of loose cardboard and books, whatever works. Bonus points if the stand/mount provides some sort of impact isolation! Now here’s the critical part, once you have the microphone set up and have done your sound check, do not move or touch it. In more video driven platforms, it can be really common to see people holding or constantly readjusting the microphone, you generally want to avoid this as it creates a bunch of noise you will have to edit out and if you don’t edit it out I will personally be sad at you. If you’re using a phone as a microphone or otherwise don’t have a stand and have to hold it, try to avoid shifting hands too much and avoid touching near the head of the mic unless you’re trying to do ASMR.</p>
+<p>If you have a lav mic, it belongs clipped to your shirt. It is not for holding please I beg of you. You also want to be careful to avoid ruffling the lav mic too much as that will also create really unpleasant noises.</p>
+<p>For other microphones, you want to position yourself about a handspan away from the microphone if possible. The fun memory device that I usually hear for this is to make the “hang loose”/shaka hand sign and place the pinky right in front of the microphone and the thumb where your mouth is going to be. You’ll note this is pretty close! It can take some getting used to and you may end up drifting further away from the microphone without realizing.</p>
+<p>You may also wish to position the microphone at a slight angle to you that you’re speaking past it rather than directly into the microphone. This can help avoid plosives causing you to blow air directly into the mic, but you will need to take some care that you are still audible and aren’t drifting too far out of the main audio pickup region.</p>
+<p>However you choose to set up the microphone, ensure it is comfortable enough for the length of your recording session and do your sound check with the volume and positioning you expect to use for your actual recording. In my days of operating the high-school theater sound system, we would occasionally run into issues if the actors did their sound check differently from the lines/songs delivered during the rest of the show, usually causing me to frantically adjust things on the fly to avoid clipping and feedback. With any luck feedback won’t be an issue for podcast recording but if you set your microphone gain too high because your soundcheck was quiet, you will end up clipping the microphone when you get loud. If you do the opposite then your audio will be too quiet to pick up. So while it may feel inconvenient, <strong>it is important to do some form of soundcheck</strong> so you don’t find yourself with hours of useless, unsalvageable audio.</p>
+<h2 id="room-tone">Room tone</h2>
+<p>Once you’re ready to record, there’s one more thing to do before getting to the actual context of the episode: record some room tone. This is just recording the sound of the room you’re in without actually speaking and is surprisingly important for later editing. This is also called “presence” in some contexts and is the unique background noise of a particular microphone position and configuration on the particular day of the recording. The reason you want a sample of this is to use when “silence” is needed on a track since true silence sounds anywhere from ambiguously wrong to like your sound system has broken. Think of the difference between a phone call where no one is speaking and a dead line. The difference matters here! Humans are sometimes—emphasis on sometimes—surprisingly good at telling when certain things sound wrong, for instance, most people can <a rel="noopener nofollow noreferrer" target="_blank" href="https://www.npr.org/2014/07/05/328842704/what-does-cold-sound-like">reliably disambiguate the sound of hot water and cold water being poured into a glass</a>.</p>
+<p>Digressions aside, all you need to do is leave a few seconds of silence at the beginning of your recording to use later as needed. And yes, everyone should do this as each of the recording setups will have their own different room tone.</p>
+<h1 id="editing">Editing</h1>
+<p>So on the whole I’ll have a bit less to say on this part, not because editing is simple but because it is such a deep area that I can’t possibly cover it in robust detail and because my knowledge is limited to the particular types of audio editing I have done in the past, namely straightforward interview and voiceover. For more complex editing like one might find in audio fiction, you’d be better off consulting an audio engineer!</p>
+<h2 id="why-and-what-to-edit">Why and what to edit?</h2>
+<p>But all that said, you should still edit your podcast particularly if it is an unscripted conversation or interview. Regardless of how it feels in the moment, a fully unedited conversation seldom makes for good listening. When speaking we use voiced pauses frequently, abandon sentences midstream, restate questions several times over, stop, start and stop again, and otherwise stumble over our words. Natural conversations are messy. The art of editing is cutting out the parts of that mess which aren’t necessary without making conversation feel unnatural. Exactly what you should cut and reorder is up to your own taste and particular feelings, but in general I think you should strive to respect the time of your listeners. Don’t include something if it doesn’t communicate something relevant to the audience.</p>
+<p>For instance, if there is a long gap between asking a question and receiving an answer, reduce it! We don’t need to hear ten seconds of silence, or ten seconds of voiced pauses while someone collects their thoughts. Similarly, if someone asks a question and then immediately re-words the question, you don’t necessarily need to include both. If you make a joke that was fun at the time but in hindsight isn’t very good, just remove it. False starts, remove them! Of course, it is fine to leave some ums and ers in, you are not trying to make the conversation sound like two animatronics delivering lines to each other, but make sure that what you do include is worth the time of the audience however you personally define that.</p>
+<p>In general editing audio takes far more time than you would expect, assuming you are not regularly editing audio. A decent lower bound for basic edits is that it will take you about four times as long as the actual audio segment to edit it. This gets even longer for more complex edits or those where you’re trying to compress an hour interview into a 30 minute episode. So budget more time than you think you need and be sure to use a variety of headphones to ensure things are at least listenable across different devices. If there are general trends toward audio normalization in your space, try to match whatever normalization target is appropriate to avoid swings in loudness across different podcasts.</p>
+<h2 id="noise-removal">Noise Removal</h2>
+<p>There are a number of ways to approach this. There are plenty of free tools and plugins such as Audacity which can work on some background noise. iZotope also has a suite of editing plugins which can be very helpful if you’re willing to pay for them, though many are prohibitively expensive the Elements suite tends to go on sale and meet most of the basic needs you might have. Ultimately what you need for this depends a lot on what type of background noise you’re dealing with and what options you have to treat your recording space and your overall budget. You can get pretty far without needing to pay for anything.</p>
+<h2 id="editing-software">Editing Software</h2>
+<p>There are a lot of options here ranging from free to dear-god-adobe-wants-how-much??? If you don’t have a lot of complex edits to do you can get by just fine on Audacity and if you are willing to spend a bit of money REAPER will more than handle your needs. There are other more expensive and specialized pieces of software, but only seek them out if you need them and in general, support things that don’t require an eternal subscription to use.</p>
+<h1 id="in-conclusion">In Conclusion</h1>
+<p>Get out there and make stuff!</p>
+
+</div>
+
+  </div>
+
+</body>
+
+</html>
