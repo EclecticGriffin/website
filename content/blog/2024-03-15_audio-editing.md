@@ -1,6 +1,6 @@
 ---
 title: "So You've Decided to Start a Podcast (or you need to edit audio)"
-date: 2024-03-05
+date: 2024-03-15
 draft: false
 ---
 A loose collection of audio tips from someone with a small amount of experience
@@ -41,7 +41,7 @@ using this table of contents. I won't be mad, I promise.
   - [Why Edit?](#why-edit)
     - [1. To make it good](#1-to-make-it-good)
     - [2. To respect people's time](#2-to-respect-peoples-time)
-    - [3. To present people/ideas clearly](#3-to-present-peopleideas-clearly)
+    - [3. To present people and ideas clearly](#3-to-present-people-and-ideas-clearly)
   - [What to edit?](#what-to-edit)
   - [Editing Software](#editing-software)
   - [Noise Removal](#noise-removal)
@@ -298,7 +298,7 @@ goals and taste. You can lose a lot of time here if you are a perfectionist; I
 know I do. I don't have good advice for recognizing when to stop polishing
 something, save that done and okay is better than perfect and unfinished.
 
-### 2. To respect people's time
+### 2. To respect people's time<a name="2-to-respect-peoples-time"></a>
 With unscripted podcasts/audio, there can be a lot of functionally "dead" audio.
 Jokes that didn't land, long pauses, mumbling, starting and stopping, and all
 other manner of things that aren't "useful" for the end product. In this view,
@@ -308,7 +308,7 @@ should strive to make things only as long as they need to be. This is a deeply
 subjective judgement and, like the prior point, needs to be constrained by
 practicality. You needn't eliminate _every_ pause and "um" in the tape.
 
-### 3. To present people/ideas clearly
+### 3. To present people and ideas clearly
 In this context I am thinking specifically about interviews and discussions, so
 it is analogous to the first reason but in the opposite direction. Here the goal
 is to present the other people and their ideas in the most cogent light. This
