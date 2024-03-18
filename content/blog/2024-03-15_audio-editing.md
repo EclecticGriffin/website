@@ -369,12 +369,12 @@ background noise. There are a number of ways to approach this. There are plenty
 of free tools and plugins such as [Audacity][audacity] which can work on [some
 background noise](https://manual.audacityteam.org/man/noise_reduction.html).
 [iZotope](https://www.izotope.com/) also has a suite of editing plugins which
-can be very helpful if you're willing to pay for them, though many are
-prohibitively expensive the [Elements][izotope_elements] suite tends to go on
-sale and meet most of the basic needs you might have. Ultimately what you need
-for this depends a lot on what type of background noise you're dealing with and
-what options you have to treat your recording space and your overall budget. You
-can get pretty far without needing to pay for anything.
+can be very helpful if you're willing to pay for them, and, while many are
+prohibitively expensive, the [Elements][izotope_elements] suite tends to go on
+sale regularly and meets most of the basic needs you might have. Ultimately what
+you need for this depends a lot on what type of background noise you're dealing
+with and what options you have to treat your recording space and your overall
+budget. You can get pretty far without needing to pay for anything.
 
 
 # In Conclusion
