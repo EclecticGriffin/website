@@ -1,5 +1,5 @@
 +++
-date = 2021-07-21
+
 +++
 <div class="profile">
 <table class="table-profile">

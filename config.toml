@@ -15,7 +15,8 @@ build_search_index = false
 
 description = "Not entirely clueless"
 
-generate_feed = false
+generate_feeds = false
+
 
 [slugify]
 paths_keep_dates = true
