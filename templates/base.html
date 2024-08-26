@@ -11,12 +11,15 @@
 
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
 
-  <link rel="icon" href="{{ get_url(path="favicon.png") | safe }}" type="image/png">
+  <link rel="icon" href="{{ get_url(path='favicon.png') | safe }}" type="image/png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path='apple-touch-icon.png') | safe }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path='favicon-32x32.png') | safe }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path='favicon-16x16.png') | safe }}">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ get_url(path="print.css", trailing_slash=false) }}" media="print">
-  <link rel="stylesheet" href="{{ get_url(path="poole.css", trailing_slash=false) }}">
-  <link rel="stylesheet" href="{{ get_url(path="hyde.css", trailing_slash=false) }}">
+  <link rel="stylesheet" href="{{ get_url(path='print.css', trailing_slash=false) }}" media="print">
+  <link rel="stylesheet" href="{{ get_url(path='poole.css', trailing_slash=false) }}">
+  <link rel="stylesheet" href="{{ get_url(path='hyde.css', trailing_slash=false) }}">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- {% if config.generate_feed %}
@@ -26,7 +29,7 @@
 
   {% block rss %}
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{
-  get_url(path="blog/atom.xml", trailing_slash=false) | safe }}">
+  get_url(path='blog/atom.xml', trailing_slash=false) | safe }}">
   {% endblock %}
 
 
