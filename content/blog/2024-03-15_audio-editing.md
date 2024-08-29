@@ -109,7 +109,7 @@ Okay this really gets into the weeds, but for those interested, you might be
 wondering why a bunch of mics say "cardioid" and what that means. In this case
 it refers to the *capture pattern* of the microphone which is the shape of the
 region around the microphone in which it can pick up sound. There are a number
-of different patterns, and some mics allow more than one, with cardioid patterns
+of different patterns, and some mics allow more than one, but cardioid patterns
 tend to be the most common. In this case, the microphone picks up sound in a
 heart-shaped region, hence the name, with most of the pickup being in front of
 the mic with the region tailing off around the sides and back. These microphones
