@@ -84,7 +84,7 @@ better to use some form of external microphone separate from both your device
 and your headphones. This also means one thing breaking won't require you to
 replace all your equipment.
 
-Broadly speaking there are two catagories of microphones to consider based on
+Broadly speaking there are two categories of microphones to consider based on
 their connection mechanism: USB and XLR. The former is what you're most likely
 to find when initially searching and are generally pretty plug-and-play. If you
 don't _need_ an XLR mic, probably just go with a USB. The downside of USB mics
