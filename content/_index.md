@@ -6,7 +6,7 @@
     <tr>
         <td>
             <figure class="headshot-img" style="margin:10px; width:200px">
-                <img src="/images/headshot.JPG" width=200 height=200>
+                <img src="/images/headshot.jpg" width=200 height=200>
             </figure>
         </td>
         <td>
