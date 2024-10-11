@@ -9,5 +9,5 @@ paper_link= "pdf/calyx-woset.pdf"
 year= 2021
 draft= false
 authors= ["Griffin Berlstein", "Rachit Nigam", "Christophe Gyurgyik", "Adrian Sampson"]
-type = "workshop"
+type = "short"
 +++

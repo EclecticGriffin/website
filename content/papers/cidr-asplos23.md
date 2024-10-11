@@ -10,4 +10,5 @@ year= 2023
 draft= false
 authors= ["Griffin Berlstein", "Rachit Nigam", "Christophe Gyurgyik", "Adrian Sampson"]
 type="long"
+award="Distinguished Artifact Award"
 +++
