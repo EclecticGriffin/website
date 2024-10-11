@@ -57,4 +57,6 @@ authors = [
     { name = "Rachit Nigam", link = "https://rachitnigam.com/" },
     { name = "Christophe Gyurgyik", link = "https://cgyurgyik.github.io/" },
     { name = "Adrian Sampson", link = "https://www.cs.cornell.edu/~asampson/" },
+    { name = "Kevin Laeufer", link = "https://kevinlaeufer.com/" },
+    { name = "Ayaka Yorihiro", link = "https://ayakayorihiro.github.io/" },
 ]
