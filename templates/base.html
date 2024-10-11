@@ -9,7 +9,11 @@
   <!-- viewport-fit=cover is to support iPhone X rounded corners and notch in landscape-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
 
-  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  {% if page.title %}
+  <title> {{ page.title }} | Griffin Berlstein </title>
+  {% else %}
+  <title>Griffin Berlstein</title>
+  {% endif %}
 
   <link rel="icon" href="{{ get_url(path='favicon.png') | safe }}" type="image/png">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path='apple-touch-icon.png') | safe }}">
