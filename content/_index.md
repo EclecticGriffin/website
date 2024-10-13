@@ -16,7 +16,7 @@
                 <h1>Griffin Berlstein</h1>
                 <h3 style="margin:auto"><a href="https://www.cornell.edu/">Cornell University</a></h3>
                 <h4 style="margin:auto"><a href="https://www.cs.cornell.edu/">Department of Computer Science</a></h4>
-                <p style="margin:auto"> <strong>Pronouns:</strong> <a href="https://pronouns.alysbrooks.com/they/.../themself">They/Them</a> and <a href="https://pronouns.alysbrooks.com/xe/xem">Xe/Xem</a></p>
+                <p style="margin:auto"> <strong>Pronouns:</strong> They/Them and Xe/Xem</p>
                 <p style="margin:auto"> <strong>Office:</strong> Gates Hall 407</p>
             </div>
         </td>

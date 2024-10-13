@@ -4,6 +4,7 @@ template= "papers/li.html"
 date=2024-05-15
 [extra]
 conference_name ="OSDA"
+conference_name_long="Workshop on Open-Source Design Automation"
 conference_link= "https://osda.ws/"
 paper_link= "pdf/calyx-firrtl.pdf"
 year= 2024

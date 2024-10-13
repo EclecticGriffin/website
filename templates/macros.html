@@ -53,3 +53,46 @@
     </div>
 </div>
 {% endmacro generate_pub %}
+
+
+{% macro gen_cv_pubs(page) %}
+<div class="pub">
+    <p class="title"><strong>{{ page.title }}</strong></p>
+    <p class="authors">{{ page.extra.authors | join(sep=", ") }}</p>
+    <p><em>In {{ page.extra.conference_name_long }} (<a
+    href="{{ page.extra.conference_link }}">{{page.extra.conference_name }}
+    {{page.extra.year}}</a>)</em>
+    </p>
+    {% if page.extra.award %}
+    <p><strong>{{page.extra.award}}</strong></p>
+    {% endif %}
+</div>
+{% endmacro gen_cv_pubs %}
+
+{% macro cv_work(position, institution, date) %}
+<table class="cv_table">
+    <tr>
+        <td>
+            <p><strong>{{position}}</strong></p>
+        </td>
+    <tr>
+        <td>
+            <p>{{institution}}</p>
+        </td>
+        <td class="date">
+            <p>{{date}}</p>
+        </td>
+</table>
+{% endmacro cv_work %}
+
+{% macro cv_ta(class, name, date) %}
+<li>
+    <em>{{date}}</em>: {{class}}, "{{name}}"
+</li>
+{%endmacro cv_ta %}
+
+{% macro cv_hon(date, name, association) %}
+<p>
+    <em>{{date}}</em>: <strong>{{name}}</strong>, {{association}}
+</p>
+{% endmacro cv_hon %}

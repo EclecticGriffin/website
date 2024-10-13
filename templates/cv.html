@@ -1,5 +1,140 @@
 {% extends "base_no_sidebar.html" %}
+{% import "macros.html" as m %}
 
 {% block content %}
-    {{ page.content | safe }}
+<div class="cv_block_title">
+    <h1><a href="..">Griffin Berlstein</a></h1>
+    <h2>PhD Student, Computer Science</h2>
+    <h2> Cornell University</h2>
+</div>
+<hr>
+
+<h1>Education</h1>
+<div class="cv_block">
+    <table class="cv_table">
+        <tr>
+            <td>
+                <p><strong>Cornell University</strong></p>
+            </td>
+        <tr>
+            <td>
+                <p>PhD, Computer Science</p>
+            </td>
+            <td class="date">
+                <p>2019-</p>
+            </td>
+        <tr>
+            <td>
+                <p>Masters, Computer Science</p>
+            </td>
+            <td class="date">
+                <p>2023 </p>
+            </td>
+        <tr>
+            <td>
+                <em>Advisor</em>: <a href="https://www.cs.cornell.edu/~asampson/"> Adrian Sampson</a>
+            </td>
+    </table>
+    <br>
+    <table class="cv_table">
+        <tr>
+            <td>
+                <p><strong>Vassar College</strong></p>
+            </td>
+        <tr>
+            <td>
+                <p>Bachelor of Arts with Department and General Honors, Computer Science</p>
+            </td>
+            <td class="date">
+                <p>2015-2019</p>
+            </td>
+        <tr>
+            <td>
+                <em>Advisor</em>: <a href="https://www.vassar.edu/faculty/jawaterman"> Jason Waterman</a>
+            </td>
+    </table>
+
+</div>
+
+<h1>Publications</h1>
+<div class="cv_pub">
+    {% set section = get_section(path="papers/_index.md") %}
+    {% for page in section.pages %}
+    {{ m::gen_cv_pubs(page=page) }}
+    {% endfor %}
+</div>
+
+<h1>Research Positions</h1>
+<div class="cv_block">
+    {{ m::cv_work(position="Graduate Researcher", institution="Cornell
+    University", date="2020-") }}
+
+    {{ m::cv_work(position="Hardware Intern", institution="OctoML", date="Summer
+    2022") }}
+
+    {{ m::cv_work(position="Undergraduate Research Fellow", institution="Vassar
+    College—Undergraduate Research Summer
+    Institute", date="Summer
+    2019") }}
+
+    {{ m::cv_work(position="Undergraduate Research Fellow", institution="Vassar
+    College—Undergraduate Research Summer
+    Institute", date="Summer
+    2018") }}
+
+    {{ m::cv_work(position="Undergraduate Researcher", institution="Marquette University—NSF REU Program", date="Summer
+    2019") }}
+
+</div>
+
+<div class="taing">
+    <h1>TAing</h1>
+    <h4> Cornell University</h4>
+    <ul>
+        {{ m::cv_ta(class="CS 4120", name="Compilers", date="Spring 2020")}}
+        {{ m::cv_ta(class="CS 1110", name="Introduction to Computing", date="Fall 2019")}}
+    </ul>
+    <h4> Vassar College</h4>
+    <ul>
+        {{ m::cv_ta(class="CMPU 334", name="Operating Systems", date="Spring
+        2019")}}
+        {{ m::cv_ta(class="CMPU 334", name="Operating Systems", date="Fall
+        2018")}}
+        {{ m::cv_ta(class="CMPU 224", name="Computer Organization", date="Spring
+        2018")}}
+        {{ m::cv_ta(class="CMPU 224", name="Computer Organization", date="Fall
+        2017")}}
+        {{ m::cv_ta(class="CMPU 224", name="Computer Organization", date="Spring 2017")}}
+</div>
+
+<h1>Honors and Awards</h1>
+<div class="pub">
+    {{ m::cv_hon(date=2020, name="Department Nominee", association="Microsoft
+    Ada Lovelace Fellowship") }}
+
+    {{ m::cv_hon(date=2019, name="Janet Holdeen-adams Prize",
+    association="Vassar College Computer Science Dept") }}
+
+    {{ m::cv_hon(date=2019, name="Department Honors", association="Vassar
+    College Computer Science Dept") }}
+    {{ m::cv_hon(date=2019, name="General Honors", association="Vassar College") }}
+</div>
+
+<h1> Volunteering </h1>
+<div class="pub">
+    {{ m::cv_hon(date="2019-2020", name="General Member", association=
+    "Graduate Students for Gender Inclusion in Computing") }}
+
+    {{
+    m::cv_hon(date="2019-2020", name="Department Representative", association=
+    "Cornell Graduate and Professional Student Assembly")
+    }}
+
+    {{
+    m::cv_hon(date="2018-2019", name="Secretary", association=
+    "Vassar College Computer Science Major's Committee")
+    }}
+
+</div>
+
 {% endblock content %}

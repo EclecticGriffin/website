@@ -4,6 +4,7 @@ template= "papers/li.html"
 date=2019-10-10 # fake
 [extra]
 conference_name ="WPES"
+conference_name_long = "Workshop on Privacy in the Electronic Society"
 conference_link= "https://crises-deim.urv.cat/wpes2019/"
 paper_link= "pdf/ancile.pdf"
 year= 2019
