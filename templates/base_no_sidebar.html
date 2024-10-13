@@ -25,8 +25,10 @@
   <link rel="stylesheet" href="{{ get_url(path='poole.css', trailing_slash=false) }}">
   <link rel="stylesheet" href="{{ get_url(path='hyde.css', trailing_slash=false) }}">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <script defer src="{{ get_url(path='/font-awesome/js/brands.js') | safe }}"></script>
+  <script defer src="{{ get_url(path='/font-awesome/js/solid.js') | safe }}"></script>
+  <script defer src="{{ get_url(path='/font-awesome/js/fontawesome.js') | safe }}"></script>
   {% block extra_head %}
   {% endblock extra_head %}
 </head>
