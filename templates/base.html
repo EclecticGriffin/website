@@ -68,6 +68,21 @@
       {% for link in config.extra.hyde_socials %}
       <li class="sidebar-nav-item"><a href="{{link.url}}">{{link.name}}</a></li>
       {% endfor %}
+
+      {% if config.extra.compact_socials %}
+      <li class="sidebar-nav-item">
+        {% for link in config.extra.compact_socials %}
+        {% if link.name == "Github" %}
+        <a href="{{link.url}}"><i class="fab fa-github"></i></a>
+        {% elif link.name == "Twitter" %}
+        <a href="{{link.url}}"><i class="fab fa-twitter"></i></a>
+        {% else %}
+        <a href="{{link.url}}">{{link.name}}</a>
+        {% endif %}
+        {% endfor %}
+      </li>
+      {% endif %}
+
       {% endblock sidebar_nav %}
     </ul>
 

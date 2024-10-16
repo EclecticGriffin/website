@@ -37,10 +37,12 @@ hyde_links = [
     { name = "CV", url = "/cv" },
 ]
 
-hyde_socials = [
+compact_socials = [
     { name = "Github", url = "https://github.com/eclecticgriffin" },
     { name = "Twitter", url = "https://twitter.com/EclecticGriffin" },
 ]
+
+hyde_socials = []
 
 hyde_reverse = true
 hyde_sticky = false
