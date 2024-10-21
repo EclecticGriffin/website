@@ -386,12 +386,17 @@ tbody tr:nth-child(odd) th {
 
 /* Footnotes */
 .footnote-definition:first-of-type {
-  border-top: 1px solid;
+  border-top: 1px dashed;
   padding-top: 1rem;
 }
 
 .footnote-definition {
   margin-top: 1rem;
+  font-size: 80%;
+}
+
+div.post div.footnote-definition p {
+  margin-bottom: 0;
 }
 
 .footnote-definition sup {
