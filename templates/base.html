@@ -78,6 +78,10 @@
         <a href="{{link.url}}"><i class="fab fa-github"></i></a>
         {% elif link.name == "Twitter" %}
         <a href="{{link.url}}"><i class="fab fa-twitter"></i></a>
+        {% elif link.name == "Bluesky" %}
+        <a href="{{link.url}}"><i class="fab fa-bluesky"></i></a>
+        {% elif link.name == "Mastodon" %}
+        <a rel="me" href="{{link.url}}"><i class="fab fa-mastodon"></i></a>
         {% else %}
         <a href="{{link.url}}">{{link.name}}</a>
         {% endif %}
