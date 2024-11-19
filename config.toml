@@ -41,7 +41,7 @@ compact_socials = [
     { name = "Github", url = "https://github.com/eclecticgriffin" },
     # { name = "Twitter", url = "https://twitter.com/EclecticGriffin" },
     { name = "Mastodon", url = "https://mellow.zone/@griffin" },
-    { name = "Bluesky", url = "https://bsky.app/profile/eclecticgriffin.bsky.social" },
+    { name = "Bluesky", url = "https://bsky.app/profile/griffinberlste.in" },
 ]
 
 hyde_socials = []
