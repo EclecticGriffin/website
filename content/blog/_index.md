@@ -1,6 +1,6 @@
 +++
 template="blog/list.html"
 generate_feeds=true
-title="blog"
+title="Blog Posts"
 sort_by="date"
 +++
