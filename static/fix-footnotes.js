@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', (_event) => {
         const id = footnote.getAttribute('id')
         const backReference = document.createElement('a')
         backReference.setAttribute('href', `#${id}_ref`)
-        backReference.textContent = ' ↩'
+        backReference.textContent = '↩'
         const text = footnote.querySelector('p')
         text.append(backReference)
     }

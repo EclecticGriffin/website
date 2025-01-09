@@ -58,11 +58,3 @@ sidebar.
 | 2018, Spring | CMPU 224 - Computer Organization    | Vassar College     |
 | 2017, Fall   | CMPU 224 - Computer Organization    | Vassar College     |
 | 2017, Spring | CMPU 224 - Computer Organization    | Vassar College     |
-
----
-
-
-#### About this site
-
-I made it using Zola and the Hyde theme (with a bunch of hacking), if things
-look weird, it's almost certainly my fault. Web design is not my forte.

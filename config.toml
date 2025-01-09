@@ -35,6 +35,7 @@ hyde_links = [
     { name = "Publications", url = "/papers" },
     { name = "Contact", url = "/contact" },
     { name = "CV", url = "/cv" },
+    { name = "Colophon", url = "/colophon" },
 ]
 
 compact_socials = [
