@@ -2,7 +2,6 @@
 title: Unfortunately you sometimes need to do the thing
 date: 2025-03-21
 draft: false
-slug: do-the-thing
 ---
 
 In which I meander about creative tasks and offer some advice on learning to

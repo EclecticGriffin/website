@@ -18,8 +18,8 @@ description = "Not Entirely Clueless"
 generate_feeds = false
 
 
-[slugify]
-paths_keep_dates = true
+# [slugify]
+# paths_keep_dates = true
 
 [markdown]
 external_links_target_blank = true
