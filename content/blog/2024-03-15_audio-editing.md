@@ -2,6 +2,7 @@
 title: "So You've Decided to Start a Podcast (or you need to edit audio)"
 date: 2024-03-15
 draft: false
+slug: audio-editing
 ---
 A loose collection of audio tips from someone with a small amount of experience
 and a lot of opinions.

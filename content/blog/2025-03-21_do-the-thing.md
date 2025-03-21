@@ -1,18 +1,19 @@
 ---
 title: Unfortunately you sometimes need to do the thing
-date: 2025-03-14
+date: 2025-03-21
 draft: false
+slug: do-the-thing
 ---
 
-A meander about how to learn to code, or write, or do anything really. As much a
-message to myself as anyone else.
+In which I meander about creative tasks and offer some advice on learning to
+write Rust code (or any other programming language really).
 <!-- more -->
 ---
 So I am fortunate enough to write a fair bit of code in the course of my
 research. Over the past several years this has primarily taken the form of Rust,
 a language I really like but that has a reputation for being difficult to pick
-up. This blog post isn't really going to be about learning Rust so much as it is
-about learning to do creative tasks generally.
+up. So how do you go about learning Rust, or any other creative skill for that
+matter?
 
 Like many people I suffer from a bad case of perfectionist brain gremlins, which
 can make it very hard to get things done. They've a paralytic effect that can be
@@ -32,17 +33,12 @@ nothing done at all, or to never even start. The most perfect version of a thing
 is the imagined idea of it; and unfortunately that version will never and can
 never actually exist in the world.
 
-I say all this because I think the thought patterns that lead me to struggle to
-write are similar, if not the same, to those that can lead people to struggle
-learning new programming languages. They are certainly the ones that get in my
-way at times.
-
 So here's how I think about it: our brains are lazy---or efficient depending on
 your perspective---and tend to be very use-it-or-lose-it about skills. And,
 unfortunately, this means you have to do whatever it is you want to learn and
 that you're going to be bad at it, at first. And that, well that sucks, doesn't
-it? I really, really wish that thinking hard about something was enough. But I
-suspect that art would be a lot less compelling if that were the case.
+it? It would be nice if thinking hard about something was enough. But I suspect
+that art would be a lot less compelling if that were the case.
 
 Boiled down to its simplest elements, I think the act of creating something, be
 it art or code, looks something like this:
@@ -52,13 +48,13 @@ it art or code, looks something like this:
 4. Improve until "good enough"
 
 And in my experience, my failure mode looks like jumping right to assessing what
-I've made after the smallest amount of creation. Put another way, it's easy to
-slip on the editor's hat before the author is done, because making things is,
-quite often, challenging. And while good critique is hard, criticism is quite
-easy. This looks something like
+I've made after the smallest amount of creation. It's easy to slip on the
+editor's hat before the author is done, because making things is, quite often,
+challenging. And while good critique is hard, criticism is quite easy. This
+looks something like
 1. Start with an idea
 2. Make a *tiny* bit
-3. Review it. Hate it. Why did I make this ***garbage***?
+3. Spiral
 4. Go browse the web instead
 5. I'll get to this project later. Totally.
 
@@ -68,6 +64,18 @@ first version of it. I believe this is true for writing as much for code
 development. And until you actually know the shape---not merely the vibe---of
 what you're making, criticism is largely paralytic and insidious in the way it
 promises improvement while grinding everything to a halt.
+
+Put another way, there are, broadly speaking, two layers at which you have to
+understand a piece of work: High-level and Low-level. The former is the big
+picture, the broad goal, the overall approach, while the latter is all the work
+and mechanics needed to accomplish it and manage all the messy troubles of
+reality.[^levels] This high-level view of the work is *necessarily incomplete*
+and should be revised based on understanding gained from the actual doing, i.e.
+the low-level work. Recognizing this is how we make actual progress, rather than
+becoming discouraged when the high-level understanding clashes with the
+low-level work. In this way, the two layers form a loop: the doing improves the
+high-level understanding and the high-level understanding guides the doing lest
+it get lost in the weeds.
 
 This is starting to sound an awful lot like self help. Gross.
 
@@ -93,10 +101,9 @@ thing.** But fortunately with code you can run it and see if it works, no
 subjective analysis required! Terrible code that works is still code that
 works.[^2] And often that's the first step to good code that works. And while
 technical debt is real, that's generally not a concern when you're first
-learning a language. Make something first, then worry about making it better.
+learning a language.
 
-As for me, I'll continue to give myself these reminders as I write more
-terrible, terrible words.
+Make something first, then worry about making it better.
 
 
 
@@ -108,6 +115,14 @@ terrible, terrible words.
 [roguelike]:https://bfnightly.bracketproductions.com/rustbook/chapter_0.html
 [big guide]:https://gist.github.com/noxasaxon/7bf5ebf930e281529161e51cd221cf8a
 [linked lists]:https://rust-unofficial.github.io/too-many-lists/
+
+[^levels]: In coding projects, the high-level understanding is the overall
+    approach to a problem, i.e. the algorithm or pseudocode. The low-level work
+    here is the actual code and all the work needed to realize the gaps in the
+    pseudocode. In writing, the high-level view is the outline and general
+    thesis/point while the low-level is the actual process of crafting sentences
+    and paragraphs and deciding whether or not they effectively make the desired
+    point.
 
 [^1]: At time of writing there's apparently this new trend called "vibe coding",
     at least in some circles. And at the risk of sounding like an old person
