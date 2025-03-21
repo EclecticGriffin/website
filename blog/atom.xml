@@ -5,8 +5,146 @@
     <link rel="self" type="application/atom+xml" href="https://griffinberlste.in/blog/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://griffinberlste.in/blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-03-15T00:00:00+00:00</updated>
+    <updated>2025-03-21T00:00:00+00:00</updated>
     <id>https://griffinberlste.in/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Unfortunately you sometimes need to do the thing</title>
+        <published>2025-03-21T00:00:00+00:00</published>
+        <updated>2025-03-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Griffin Berlstein
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://griffinberlste.in/blog/do-the-thing/"/>
+        <id>https://griffinberlste.in/blog/do-the-thing/</id>
+        <!-- 
+        <summary type="html">&lt;p&gt;In which I meander about creative tasks and offer some advice on learning to
+write Rust code (or any other programming language really).&lt;&#x2F;p&gt;</summary>
+         -->
+        <content type="html" xml:base="https://griffinberlste.in/blog/do-the-thing/">&lt;p&gt;In which I meander about creative tasks and offer some advice on learning to
+write Rust code (or any other programming language really).&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;So I am fortunate enough to write a fair bit of code in the course of my
+research. Over the past several years this has primarily taken the form of Rust,
+a language I really like but that has a reputation for being difficult to pick
+up. So how do you go about learning Rust, or any other creative skill for that
+matter?&lt;&#x2F;p&gt;
+&lt;p&gt;Like many people I suffer from a bad case of perfectionist brain gremlins, which
+can make it very hard to get things done. They’ve a paralytic effect that can be
+hard to manage, particularly in the early stages of things. Writing words, the
+thing I am doing now, is a real pain point. The complicated, messy process of
+taking ideas from the churning mass of thought-soup that is the conscious and
+pinning them down with language is something I become easily frustrated by. This
+frustration stems entirely from the recognition that what I’ve made, that what
+sits in front of me, is not what I want it to be. Either it’s missing some
+essential truth, feels self-indulgent, requires foreknowledge not contained
+within the writing, or one of many other unavoidable imperfections of existence.&lt;&#x2F;p&gt;
+&lt;p&gt;There’s no getting away from this. No matter what you’ve made, it can almost
+always be improved in some way, even if you’re the only one who would notice.
+And caving in to this desire to polish, to improve, is a fantastic way to get
+nothing done at all, or to never even start. The most perfect version of a thing
+is the imagined idea of it; and unfortunately that version will never and can
+never actually exist in the world.&lt;&#x2F;p&gt;
+&lt;p&gt;So here’s how I think about it: our brains are lazy—or efficient depending on
+your perspective—and tend to be very use-it-or-lose-it about skills. And,
+unfortunately, this means you have to do whatever it is you want to learn and
+that you’re going to be bad at it, at first. And that, well that sucks, doesn’t
+it? It would be nice if thinking hard about something was enough. But I suspect
+that art would be a lot less compelling if that were the case.&lt;&#x2F;p&gt;
+&lt;p&gt;Boiled down to its simplest elements, I think the act of creating something, be
+it art or code, looks something like this:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Start with an idea fragment&lt;&#x2F;li&gt;
+&lt;li&gt;Attempt to make it&lt;&#x2F;li&gt;
+&lt;li&gt;Assess what was made&lt;&#x2F;li&gt;
+&lt;li&gt;Improve until “good enough”&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;And in my experience, my failure mode looks like jumping right to assessing what
+I’ve made after the smallest amount of creation. It’s easy to slip on the
+editor’s hat before the author is done, because making things is, quite often,
+challenging. And while good critique is hard, criticism is quite easy. This
+looks something like&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Start with an idea&lt;&#x2F;li&gt;
+&lt;li&gt;Make a &lt;em&gt;tiny&lt;&#x2F;em&gt; bit&lt;&#x2F;li&gt;
+&lt;li&gt;Spiral&lt;&#x2F;li&gt;
+&lt;li&gt;Go browse the web instead&lt;&#x2F;li&gt;
+&lt;li&gt;I’ll get to this project later. Totally.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;But here’s the thing, it’s almost always the case that you don’t &lt;em&gt;really&lt;&#x2F;em&gt;
+understand what you’re making until after you’ve finished trying to make the
+first version of it. I believe this is true for writing as much for code
+development. And until you actually know the shape—not merely the vibe—of
+what you’re making, criticism is largely paralytic and insidious in the way it
+promises improvement while grinding everything to a halt.&lt;&#x2F;p&gt;
+&lt;p&gt;Put another way, there are, broadly speaking, two layers at which you have to
+understand a piece of work: High-level and Low-level. The former is the big
+picture, the broad goal, the overall approach, while the latter is all the work
+and mechanics needed to accomplish it and manage all the messy troubles of
+reality.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#levels&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; This high-level view of the work is &lt;em&gt;necessarily incomplete&lt;&#x2F;em&gt;
+and should be revised based on understanding gained from the actual doing, i.e.
+the low-level work. Recognizing this is how we make actual progress, rather than
+becoming discouraged when the high-level understanding clashes with the
+low-level work. In this way, the two layers form a loop: the doing improves the
+high-level understanding and the high-level understanding guides the doing lest
+it get lost in the weeds.&lt;&#x2F;p&gt;
+&lt;p&gt;This is starting to sound an awful lot like self help. Gross.&lt;&#x2F;p&gt;
+&lt;p&gt;Okay, brass tacks, how do you learn to program rust? Well, in short, I recommend
+that you first read at least the beginning of the &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;book&#x2F;&quot;&gt;Rust Book&lt;&#x2F;a&gt; and then as soon
+as possible start writing some code. Make a tiny project to do whatever silly
+thing strikes your fancy. You can try &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rustlings&quot;&gt;rustlings&lt;&#x2F;a&gt;. You could even &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;rust-unofficial.github.io&#x2F;too-many-lists&#x2F;&quot;&gt;follow&lt;&#x2F;a&gt;
+&lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;stevedonovan.github.io&#x2F;rust-gentle-intro&#x2F;&quot;&gt;some&lt;&#x2F;a&gt; &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;bfnightly.bracketproductions.com&#x2F;rustbook&#x2F;chapter_0.html&quot;&gt;tutorials&lt;&#x2F;a&gt;.
+There are a ton of &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gist.github.com&#x2F;noxasaxon&#x2F;7bf5ebf930e281529161e51cd221cf8a&quot;&gt;educational resources&lt;&#x2F;a&gt; out there,
+and I’m certain some of them will work for your brain.&lt;&#x2F;p&gt;
+&lt;p&gt;But remember: you should always actually write the code yourself. It is far too
+easy to look at a piece of code and think “yeah I get it” without actually
+understanding or retaining it. Incidentally, this is why I think LLMs are an
+absolutely terrible tool for learning programming in general, though I will
+accept that I trend pretty negative on the topic.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;There’s a good chance that stuff you write won’t work correctly, won’t compile,
+or will otherwise frustrate you at first. This is okay. You aren’t doing
+anything wrong. You need to get down into the weeds and muck and really wrangle
+with things to wrap your brain around them. &lt;strong&gt;Unfortunately, you must do the
+thing.&lt;&#x2F;strong&gt; But fortunately with code you can run it and see if it works, no
+subjective analysis required! Terrible code that works is still code that
+works.&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;3&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; And often that’s the first step to good code that works. And while
+technical debt is real, that’s generally not a concern when you’re first
+learning a language.&lt;&#x2F;p&gt;
+&lt;p&gt;Make something first, then worry about making it better.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;levels&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;In coding projects, the high-level understanding is the overall
+approach to a problem, i.e. the algorithm or pseudocode. The low-level work
+here is the actual code and all the work needed to realize the gaps in the
+pseudocode. In writing, the high-level view is the outline and general
+thesis&#x2F;point while the low-level is the actual process of crafting sentences
+and paragraphs and deciding whether or not they effectively make the desired
+point.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;At time of writing there’s apparently this new trend called “vibe coding”,
+at least in some circles. And at the risk of sounding like an old person
+yelling at a cloud, I really worry what damage this is going to have on
+people’s skills and, more generally, how LLMs will impede education. I
+cannot imagine trusting an LLM to write a full function, let alone entire
+modules or programs.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;3&lt;&#x2F;sup&gt;
+&lt;p&gt;And in my experience there is sometimes a strange, perverse satisfaction
+to solving a problem in &lt;em&gt;just the worst&lt;&#x2F;em&gt; way possible. More than once, I’ve
+called someone over to see the shuddering abomination of logic I’ve somehow
+made complete a task. Behold my wretched amalgam: each loop more tangled
+than the last, each variable an entropic scream of a dying world, each
+iterator a glimpse into a realm of madness. The compiler cannot save you.
+Nothing can save you.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+    </entry>
     <entry xml:lang="en">
         <title>So You&#x27;ve Decided to Start a Podcast (or you need to edit audio)</title>
         <published>2024-03-15T00:00:00+00:00</published>
@@ -20,13 +158,13 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://griffinberlste.in/blog/2024-03-15-audio-editing/"/>
-        <id>https://griffinberlste.in/blog/2024-03-15-audio-editing/</id>
+        <link rel="alternate" type="text/html" href="https://griffinberlste.in/blog/audio-editing/"/>
+        <id>https://griffinberlste.in/blog/audio-editing/</id>
         <!-- 
         <summary type="html">&lt;p&gt;A loose collection of audio tips from someone with a small amount of experience
 and a lot of opinions.&lt;&#x2F;p&gt;</summary>
          -->
-        <content type="html" xml:base="https://griffinberlste.in/blog/2024-03-15-audio-editing/">&lt;p&gt;A loose collection of audio tips from someone with a small amount of experience
+        <content type="html" xml:base="https://griffinberlste.in/blog/audio-editing/">&lt;p&gt;A loose collection of audio tips from someone with a small amount of experience
 and a lot of opinions.&lt;&#x2F;p&gt;
 &lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
 &lt;hr &#x2F;&gt;
@@ -45,43 +183,43 @@ such as those that are livestreams first and foremost.&lt;&#x2F;p&gt;
 &lt;p&gt;If there are particular topics you are interested in, feel free to skip around
 using this table of contents. I won’t be mad, I promise.&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#who-is-this-for&quot;&gt;Who is this for&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#recording&quot;&gt;Recording&lt;&#x2F;a&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#who-is-this-for&quot;&gt;Who is this for&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#recording&quot;&gt;Recording&lt;&#x2F;a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#what-you-need&quot;&gt;What You Need&lt;&#x2F;a&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#what-you-need&quot;&gt;What You Need&lt;&#x2F;a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#microphones&quot;&gt;Microphones&lt;&#x2F;a&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#microphones&quot;&gt;Microphones&lt;&#x2F;a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#capture-patterns&quot;&gt;Capture patterns&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#other-options&quot;&gt;Other Options&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#capture-patterns&quot;&gt;Capture patterns&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#other-options&quot;&gt;Other Options&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#devices&quot;&gt;Devices&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#devices&quot;&gt;Devices&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#for-remote-recordings&quot;&gt;For Remote Recordings&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#for-in-person-recordings&quot;&gt;For In-Person Recordings&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#microphone-positioning&quot;&gt;Microphone Positioning&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#soundcheck&quot;&gt;Soundcheck&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#room-tone&quot;&gt;Room tone&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#a-digression-on-rooms-and-the-treatment-thereof&quot;&gt;A Digression on Rooms and the Treatment Thereof&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#for-remote-recordings&quot;&gt;For Remote Recordings&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#for-in-person-recordings&quot;&gt;For In-Person Recordings&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#microphone-positioning&quot;&gt;Microphone Positioning&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#soundcheck&quot;&gt;Soundcheck&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#room-tone&quot;&gt;Room tone&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#a-digression-on-rooms-and-the-treatment-thereof&quot;&gt;A Digression on Rooms and the Treatment Thereof&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#editing&quot;&gt;Editing&lt;&#x2F;a&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#editing&quot;&gt;Editing&lt;&#x2F;a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#why-edit&quot;&gt;Why Edit?&lt;&#x2F;a&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#why-edit&quot;&gt;Why Edit?&lt;&#x2F;a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#1-to-make-it-good&quot;&gt;1. To make it good&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#2-to-respect-peoples-time&quot;&gt;2. To respect people’s time&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#3-to-present-people-and-ideas-clearly&quot;&gt;3. To present people and ideas clearly&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#1-to-make-it-good&quot;&gt;1. To make it good&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#2-to-respect-peoples-time&quot;&gt;2. To respect people’s time&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#3-to-present-people-and-ideas-clearly&quot;&gt;3. To present people and ideas clearly&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#what-to-edit&quot;&gt;What to edit?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#editing-software&quot;&gt;Editing Software&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#noise-removal&quot;&gt;Noise Removal&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#what-to-edit&quot;&gt;What to edit?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#editing-software&quot;&gt;Editing Software&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#noise-removal&quot;&gt;Noise Removal&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;2024-03-15-audio-editing&#x2F;#in-conclusion&quot;&gt;In Conclusion&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;griffinberlste.in&#x2F;blog&#x2F;audio-editing&#x2F;#in-conclusion&quot;&gt;In Conclusion&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h1 id=&quot;who-is-this-for&quot;&gt;Who is this for&lt;&#x2F;h1&gt;
 &lt;p&gt;So I said up top that this post is about podcasts and the editing thereof,
