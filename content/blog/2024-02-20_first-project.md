@@ -1,14 +1,10 @@
----
-title: "On Asking the Wrong Questions"
-date: 2024-02-20
-draft: false
----
++++
+title="On Asking the Wrong Questions"
+date=2024-02-20
+[extra]
+summary="This is the story of my first real research project and why I regret working on it."
++++
 
-This is the story of my first real research project and why I regret working on
-it.
-<!-- more -->
-
----
 I became involved in research via an REU (Research Experience for
 Undergraduates) in the summer after my sophomore year. While I learned a lot
 from the experience, a good deal of it wasn't positive: I learned the taste of

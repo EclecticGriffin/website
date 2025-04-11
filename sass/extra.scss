@@ -1,0 +1,53 @@
+.blog_short {
+    margin-bottom: 0.8em;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.blog_short>.date {
+    vertical-align: top;
+    font-size: 0.9em;
+    text-align: left;
+    flex: 1 100%;
+}
+
+.blog_short>.description {
+    vertical-align: top;
+    margin-left: 1em;
+    flex: 1 1;
+}
+
+.blog_short>.description>.title {
+    vertical-align: top;
+}
+
+.blog_short p {
+    display: inline;
+}
+
+.blog_short>.description>.summary {
+    color: #7a7777;
+    font-size: 0.9em;
+}
+
+@media screen and (min-width: 800px) {
+    .blog_short>.date {
+        text-align: right;
+        flex: 0 0 65px;
+    }
+}
+
+.post-date {
+    margin-bottom: 4px;
+}
+
+.post-summary {
+    font-size: 0.8em;
+    color: #7a7777;
+    text-align: left;
+}
+
+// .post-summary hr {
+//     margin-top: 0.5rem;
+//     margin-bottom: 0.5rem;
+// }

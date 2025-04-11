@@ -41,8 +41,7 @@
         <div class="links">
             {% if page.extra.paper_link %}
             <a class="button_link" href="{{ get_url(path=page.extra.paper_link)
-            | safe }}"> <i
-                    class="fa-solid fa-file"></i> PDF</a>
+            | safe }}"> <i class="fa-solid fa-file"></i> PDF</a>
             {% endif %}
         </div>
 
@@ -92,3 +91,14 @@
     <em>{{date}}</em>: <strong>{{name}}</strong>, {{association}}
 </p>
 {% endmacro cv_hon %}
+
+{% macro blog_short(page) %}
+<div class="blog_short">
+    <div class="date">{{ page.date }}</div>
+    <div class="description"> <a class="title" href="{{page.permalink}}"><strong>{{
+                page.title }}</strong></a>
+        <div class="summary"> {{ page.extra.summary | safe}}</div>
+    </div>
+
+</div>
+{% endmacro blog_short %}

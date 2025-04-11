@@ -1,13 +1,11 @@
----
-title: Unfortunately you sometimes need to do the thing
-date: 2025-03-21
-draft: false
----
++++
+title="Unfortunately you sometimes need to do the thing"
+date=2025-03-21
+draft=false
+[extra]
+summary="In which I meander about creative tasks and offer some advice on learning to write Rust code (or any other programming language really)."
++++
 
-In which I meander about creative tasks and offer some advice on learning to
-write Rust code (or any other programming language really).
-<!-- more -->
----
 So I am fortunate enough to write a fair bit of code in the course of my
 research. Over the past several years this has primarily taken the form of Rust,
 a language I really like but that has a reputation for being difficult to pick

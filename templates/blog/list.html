@@ -13,11 +13,8 @@ config.feed_filenames.0)}}"><i class="fa-solid fa-square-rss"></i></a>
       <a href="{{ page.permalink }}">{{ page.title }}</a>
     </h2>
     <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
-    {% if page.summary %}
-    {{ page.summary | safe }}
-    <a href="{{ page.permalink }}#continue-reading">Continue Reading</a>
-    {% else %}
-    {{ page.content | safe }}
+    {% if page.extra.summary %}
+    {{ page.extra.summary | safe }}
     {% endif %}
   </article>
   {% endfor %}

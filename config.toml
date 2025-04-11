@@ -29,7 +29,7 @@ smart_punctuation = true
 highlight_code = true
 
 [extra]
-# Put all your custom variables here
+
 hyde_links = [
     { name = "Blog", url = "/blog" },
     { name = "Publications", url = "/papers" },
@@ -44,6 +44,8 @@ compact_socials = [
     { name = "Mastodon", url = "https://mellow.zone/@griffin" },
     { name = "Bluesky", url = "https://bsky.app/profile/griffinberlste.in" },
 ]
+
+blog_post_count = 3
 
 hyde_socials = []
 

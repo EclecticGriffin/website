@@ -1,7 +1,20 @@
 {% extends "base.html" %}
+{% import "macros.html" as m %}
 
 {% block content %}
-
-
-{{ section.content | safe }}
+<section>
+    <div class="bio">
+        {{ section.content | safe }}
+    </div>
+</section>
+<hr>
+<section>
+    <div class="recent-posts">
+        <h3>Recent Blog Posts</h3>
+        {% set blogs = get_section(path="blog/_index.md") %}
+        {% for page in blogs.pages | slice(end=config.extra.blog_post_count) %}
+        {{ m::blog_short(page=page) }}
+        {% endfor %}
+    </div>
+</section>
 {% endblock content %}

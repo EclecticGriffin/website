@@ -44,17 +44,3 @@ their advisor and otherwise party to their shenanigans in
 They occasionally write things, academic and otherwise, which can be found in the
 sidebar. If you'd like to get in contact with them, please see the tab in the
 sidebar.
-
----
-
-## TA Work
-
-| Year         | Class                               | Institution        |
-| ------------ | ----------------------------------- | ------------------ |
-| 2020, Spring | CS 4120 - Compilers                 | Cornell University |
-| 2019, Fall   | CS 1110 - Introduction to Computing | Cornell University |
-| 2019, Spring | CMPU 334 - Operating Systems        | Vassar College     |
-| 2018, Fall   | CMPU 334 - Operating Systems        | Vassar College     |
-| 2018, Spring | CMPU 224 - Computer Organization    | Vassar College     |
-| 2017, Fall   | CMPU 224 - Computer Organization    | Vassar College     |
-| 2017, Spring | CMPU 224 - Computer Organization    | Vassar College     |

@@ -1,12 +1,10 @@
----
-title: "So You've Decided to Start a Podcast (or you need to edit audio)"
-date: 2024-03-15
-draft: false
----
-A loose collection of audio tips from someone with a small amount of experience
-and a lot of opinions.
-<!-- more -->
----
++++
+title= "So You've Decided to Start a Podcast (or you need to edit audio)"
+date= 2024-03-15
+draft= false
+[extra]
+summary="A loose collection of audio tips from someone with a small amount of experience and a lot of opinions."
++++
 
 If you've decided to start an interview or talk-heavy unscripted podcast but
 don't know the first thing about audio, then this little scrawl may be for you.
