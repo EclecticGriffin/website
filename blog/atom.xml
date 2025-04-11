@@ -22,15 +22,10 @@
         
         <link rel="alternate" type="text/html" href="https://griffinberlste.in/blog/do-the-thing/"/>
         <id>https://griffinberlste.in/blog/do-the-thing/</id>
-        <!-- 
-        <summary type="html">&lt;p&gt;In which I meander about creative tasks and offer some advice on learning to
-write Rust code (or any other programming language really).&lt;&#x2F;p&gt;</summary>
-         -->
-        <content type="html" xml:base="https://griffinberlste.in/blog/do-the-thing/">&lt;p&gt;In which I meander about creative tasks and offer some advice on learning to
-write Rust code (or any other programming language really).&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
-&lt;hr &#x2F;&gt;
-&lt;p&gt;So I am fortunate enough to write a fair bit of code in the course of my
+        
+        <summary type="html">In which I meander about creative tasks and offer some advice on learning to write Rust code (or any other programming language really).</summary>
+        
+        <content type="html" xml:base="https://griffinberlste.in/blog/do-the-thing/">&lt;p&gt;So I am fortunate enough to write a fair bit of code in the course of my
 research. Over the past several years this has primarily taken the form of Rust,
 a language I really like but that has a reputation for being difficult to pick
 up. So how do you go about learning Rust, or any other creative skill for that
@@ -160,15 +155,10 @@ Nothing can save you.&lt;&#x2F;p&gt;
         
         <link rel="alternate" type="text/html" href="https://griffinberlste.in/blog/audio-editing/"/>
         <id>https://griffinberlste.in/blog/audio-editing/</id>
-        <!-- 
-        <summary type="html">&lt;p&gt;A loose collection of audio tips from someone with a small amount of experience
-and a lot of opinions.&lt;&#x2F;p&gt;</summary>
-         -->
-        <content type="html" xml:base="https://griffinberlste.in/blog/audio-editing/">&lt;p&gt;A loose collection of audio tips from someone with a small amount of experience
-and a lot of opinions.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
-&lt;hr &#x2F;&gt;
-&lt;p&gt;If you’ve decided to start an interview or talk-heavy unscripted podcast but
+        
+        <summary type="html">A loose collection of audio tips from someone with a small amount of experience and a lot of opinions.</summary>
+        
+        <content type="html" xml:base="https://griffinberlste.in/blog/audio-editing/">&lt;p&gt;If you’ve decided to start an interview or talk-heavy unscripted podcast but
 don’t know the first thing about audio, then this little scrawl may be for you.
 I’ll take you through a few basics, common pitfalls, and approaches so that your
 podcast doesn’t annoy me personally, which I think we can all agree is an
@@ -529,15 +519,10 @@ budget. You can get pretty far without needing to pay for anything.&lt;&#x2F;p&g
         
         <link rel="alternate" type="text/html" href="https://griffinberlste.in/blog/first-project/"/>
         <id>https://griffinberlste.in/blog/first-project/</id>
-        <!-- 
-        <summary type="html">&lt;p&gt;This is the story of my first real research project and why I regret working on
-it.&lt;&#x2F;p&gt;</summary>
-         -->
-        <content type="html" xml:base="https://griffinberlste.in/blog/first-project/">&lt;p&gt;This is the story of my first real research project and why I regret working on
-it.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
-&lt;hr &#x2F;&gt;
-&lt;p&gt;I became involved in research via an REU (Research Experience for
+        
+        <summary type="html">This is the story of my first real research project and why I regret working on it.</summary>
+        
+        <content type="html" xml:base="https://griffinberlste.in/blog/first-project/">&lt;p&gt;I became involved in research via an REU (Research Experience for
 Undergraduates) in the summer after my sophomore year. While I learned a lot
 from the experience, a good deal of it wasn’t positive: I learned the taste of
 burnout, the ways in which my brain splits apart under extensive stress and
@@ -700,15 +685,12 @@ ultimately tools, and we too can use tools to make things better. I hope we do.&
         
         <link rel="alternate" type="text/html" href="https://griffinberlste.in/blog/2023-09-02-priya/"/>
         <id>https://griffinberlste.in/blog/2023-09-02-priya/</id>
-        <!-- 
-        <summary type="html">&lt;p&gt;&lt;strong&gt;cw: death and grief.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;an attempt to process the death of a friend&lt;&#x2F;p&gt;</summary>
-         -->
-        <content type="html" xml:base="https://griffinberlste.in/blog/2023-09-02-priya/">&lt;p&gt;&lt;strong&gt;cw: death and grief.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;an attempt to process the death of a friend&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
-&lt;hr &#x2F;&gt;
-&lt;p&gt;I have tried and failed to write this post many times. But making sense of death is hard, all the more so in an American culture which abhors the discussion of what waits for us all.&lt;&#x2F;p&gt;
+        
+        <summary type="html">&lt;strong&gt;cw: death and grief.&lt;&#x2F;strong&gt;
+an attempt to process the death of a friend
+</summary>
+        
+        <content type="html" xml:base="https://griffinberlste.in/blog/2023-09-02-priya/">&lt;p&gt;I have tried and failed to write this post many times. But making sense of death is hard, all the more so in an American culture which abhors the discussion of what waits for us all.&lt;&#x2F;p&gt;
 &lt;p&gt;Last weekend my friend, colleague, and labmate &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;web.archive.org&#x2F;web&#x2F;20240107010800&#x2F;https:&#x2F;&#x2F;priyasrikumar.com&#x2F;&quot;&gt;Priya Srikumar&lt;&#x2F;a&gt; died in a car accident. Putting my grief into words is an impossible task but I’ll try to capture what I can and attempt to convey, however imperfectly, the ways in which they touched my life. My friend Rachit has put together a &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;rachit.pl&#x2F;post&#x2F;priya&#x2F;&quot;&gt;memorial&lt;&#x2F;a&gt; post for Priya which I encourage you to read and contribute to if you knew them. This will be like that, albeit messier.&lt;&#x2F;p&gt;
 &lt;p&gt;I find myself lingering on—and shedding tears over—the small things most. By and large, knowing someone means sharing a lot of minor moments—inconsequential enough to be omitted from synopses yet, large enough in their multiplicity to encompass the entire thing. In remembering Priya, I’d like to share some of these moments.&lt;&#x2F;p&gt;
 &lt;p&gt;I met Priya in my first year of grad school first in the programming languages discussion group and then later as their TA for the compilers course. I think they were more motivated in that course than I have ever been in my life.&lt;&#x2F;p&gt;
