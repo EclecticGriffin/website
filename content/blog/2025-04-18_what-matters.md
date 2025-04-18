@@ -49,7 +49,7 @@ topic or do many things pull your interest? Do you need to write code? To write
 proofs and formal semantics? Would writing C make you miserable? The list goes
 on and on.
 
-A little introspection can save a lot of pain down the line.
+Take some time and talk to yourself. Introspection is never wasted.
 
 [^topics-i-hate]: Not to say that there are no topics I would refuse to work on;
     there are many. Blockchains and LLMs can rot for all I care, as can anything
