@@ -5,8 +5,72 @@
     <link rel="self" type="application/atom+xml" href="https://griffinberlste.in/blog/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://griffinberlste.in/blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-03-21T00:00:00+00:00</updated>
+    <updated>2025-04-18T00:00:00+00:00</updated>
     <id>https://griffinberlste.in/blog/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Finding what matters</title>
+        <published>2025-04-18T00:00:00+00:00</published>
+        <updated>2025-04-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Griffin Berlstein
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://griffinberlste.in/blog/what-matters/"/>
+        <id>https://griffinberlste.in/blog/what-matters/</id>
+        
+        <summary type="html">A piece of advice for new PhD students</summary>
+        
+        <content type="html" xml:base="https://griffinberlste.in/blog/what-matters/">&lt;p&gt;So we all know advice is cheap—or free, as in this case—but nevertheless I
+humbly offer you what I wish someone had told me when I started out. Take from
+it what you find resonate and leave the rest, I don’t mind. And as always, my
+perspective is limited to my particular field.&lt;&#x2F;p&gt;
+&lt;p&gt;A PhD student’s most important decision is ultimately who their advisor is going
+to be. A significant part of graduate school flows from this one decision and
+there is already a lot of advice out there about how to go about the process
+which I won’t repeat. Rather, I’d like to talk about what happens next, about
+what the work looks like.&lt;&#x2F;p&gt;
+&lt;p&gt;My general advice is this: figure out which parts of the research process matter
+to you and are non-negotiable for your happiness. If your advisor is great, but
+you like neither the topic of the work nor the actual process of it, then you
+are still going to be miserable.&lt;&#x2F;p&gt;
+&lt;p&gt;For some people, topic is very important to them and it doesn’t entirely matter
+what they’re doing as long as they working in a particular area. For my part, I
+am interested in many things&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#topics-i-hate&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; but care a lot about the &lt;em&gt;methods&lt;&#x2F;em&gt;.
+I like writing code and designing systems and it turns out I won’t be happy if
+the work doesn’t involve a healthy amount of this. Interesting theory and types
+are great, but only if I actually get to apply them. I am a bit of a “hacker”,
+in the non-intrusive sense. I similarly like collaborating with people, even if
+we’re not working on exactly the same thing. The lone scientist narrative, if
+such a thing is even possible, simply doesn’t suit me.&lt;&#x2F;p&gt;
+&lt;p&gt;My initial advising match in graduate school ultimately was unsuccessful because
+while I was interested in the topic, the methodology simply didn’t work for me.
+It made me completely miserable. I can do mathematical proofs and analysis, but
+it’s a slog which doesn’t make my brain sing. Simply put, I was a bad fit for
+the particular project. But it took me a long time to realize why I wasn’t
+happy.&lt;&#x2F;p&gt;
+&lt;p&gt;I think it can be easy to overlook the &lt;em&gt;work&lt;&#x2F;em&gt; and focus on the person the work
+is with—which is undeniably important—but the work is what you’ll be doing
+day to day to day to day for many many years. Ideally that would aid your
+flourishing rather than impede it.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;So figure out what matters to you. What do you need to be happy doing research?&lt;&#x2F;strong&gt;
+Do you need collaborators or to work solo? Do you care deeply about a particular
+topic or do many things pull your interest? Do you need to write code? To write
+proofs and formal semantics? Would writing C make you miserable? The list goes
+on and on.&lt;&#x2F;p&gt;
+&lt;p&gt;Take some time and talk to yourself. Introspection is never wasted.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;topics-i-hate&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Not to say that there are no topics I would refuse to work on;
+there are many. Blockchains and LLMs can rot for all I care, as can anything
+designed to brutalize or kill people. The list is long, for the tech
+industry collaborates with a great many evils and grows many news ones.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+    </entry>
     <entry xml:lang="en">
         <title>Unfortunately you sometimes need to do the thing</title>
         <published>2025-03-21T00:00:00+00:00</published>
