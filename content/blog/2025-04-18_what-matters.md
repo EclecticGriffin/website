@@ -7,7 +7,7 @@ summary="A piece of advice for new PhD students"
 
 So we all know advice is cheap---or free, as in this case---but nevertheless I
 humbly offer you what I wish someone had told me when I started out. Take from
-it what you find resonate and leave the rest, I don't mind. And as always, my
+it what you find resonant and leave the rest, I don't mind. And as always, my
 perspective is limited to my particular field.
 
 A PhD student's most important decision is ultimately who their advisor is going
