@@ -1,10 +1,8 @@
 +++
-title = "Colophon"
+title = "Colophon: Or, about this website"
 date = 2025-01-09
 template="simplepage.html"
 +++
-
-aka: about this website!
 
 ## Intentions / Goals
 This website is my little home on the web, repository for my work, and the place
