@@ -10,7 +10,7 @@
 <hr>
 <section>
     <div class="recent-posts">
-        <h3>Recent Blog Posts</h3>
+        <h3>Recent <a href="{{ get_url(path='blog') }}">Blog Posts</a></h3>
         {% set blogs = get_section(path="blog/_index.md") %}
         {% for page in blogs.pages | slice(end=config.extra.blog_post_count) %}
         {{ m::blog_short(page=page) }}
