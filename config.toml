@@ -56,12 +56,12 @@ hyde_theme = ""
 
 authors = [
     { name = "Jason Waterman", link = "https://www.cs.vassar.edu/~jawaterman/" },
-    { name = "Eugene Bagdasaryan", link = "https://ebagdasa.github.io/" },
+    { name = "Eugene Bagdasaryan", link = "https://people.cs.umass.edu/~eugene/" },
     { name = "Eleanor Birrell", link = "https://cs.pomona.edu/~ebirrell/" },
-    { name = "Nate Foster", link = "https://www.cs.cornell.edu/~jnfoster/" },
+    { name = "Nate Foster", link = "https://natefoster.org/" },
     { name = "Fred B. Schneider", link = "https://www.cs.cornell.edu/fbs/" },
-    { name = "Deborah Estrin", link = "https://destrin.smalldata.io/" },
-    { name = "Rachit Nigam", link = "https://rachitnigam.com/" },
+    { name = "Deborah Estrin", link = "https://destrin.tech.cornell.edu/" },
+    { name = "Rachit Nigam", link = "https://people.csail.mit.edu/rachit/" },
     { name = "Christophe Gyurgyik", link = "https://cgyurgyik.github.io/" },
     { name = "Adrian Sampson", link = "https://www.cs.cornell.edu/~asampson/" },
     { name = "Kevin Laeufer", link = "https://kevinlaeufer.com/" },
