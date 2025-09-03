@@ -393,7 +393,11 @@ div.links {
 }
 
 div.cv_block {
-  line-height: 0.5em;
+  line-height: 1rem;
+}
+
+.cv_block p {
+  margin-bottom: 0.5rem;
 }
 
 div.cv_block_title h1,
