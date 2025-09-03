@@ -32,10 +32,12 @@ highlight_code = true
 
 hyde_links = [
     { name = "Blog", url = "/blog" },
+    { name = "Projects", url = "/projects" },
     { name = "Publications", url = "/papers" },
-    { name = "Contact", url = "/contact" },
     { name = "CV", url = "/cv" },
+    { name = "Contact", url = "/contact" },
     { name = "Colophon", url = "/colophon" },
+
 ]
 
 compact_socials = [
