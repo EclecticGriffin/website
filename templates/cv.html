@@ -4,7 +4,7 @@
 {% block content %}
 <div class="cv_block_title">
     <h1><a href="..">Griffin Berlstein</a></h1>
-    <h2>PhD Student, Computer Science</h2>
+    <h2>PhD Candidate, Computer Science</h2>
     <h2> Cornell University</h2>
 </div>
 <hr>
@@ -36,7 +36,6 @@
             </td>
     </table>
     <br>
-    <br>
     <table class="cv_table">
         <tr>
             <td>
@@ -65,31 +64,30 @@
     {% endfor %}
 </div>
 
-<h1>Research Positions</h1>
+<h1>Technical Work</h1>
 <div class="cv_block">
     {{ m::cv_work(position="Graduate Researcher", institution="Cornell
-    University", date="2020-") }}
+    University", date="2020–Current") }}
 
-    {{ m::cv_work(position="Hardware Intern", institution="OctoML", date="Summer
+    {{ m::cv_work(position="Hardware Team Intern", institution="OctoML", date="Summer
     2022") }}
 
-    {{ m::cv_work(position="Undergraduate Research Fellow", institution="Vassar
-    College—Undergraduate Research Summer
-    Institute", date="Summer
-    2019") }}
+    {{ m::cv_work(position="Research Fellow", institution="Vassar
+    College Undergraduate Research Summer
+    Institute", date="Summer 2019") }}
 
-    {{ m::cv_work(position="Undergraduate Research Fellow", institution="Vassar
-    College—Undergraduate Research Summer
-    Institute", date="Summer
-    2018") }}
+    {{ m::cv_work(position="Research Fellow", institution="Vassar
+    College Undergraduate Research Summer
+    Institute", date="Summer 2018") }}
 
-    {{ m::cv_work(position="Undergraduate Researcher", institution="Marquette University—NSF REU Program", date="Summer
+    {{ m::cv_work(position="Undergraduate Researcher", institution="Marquette
+    University NSF REU Program", date="Summer
     2017") }}
 
 </div>
 
 <div class="taing">
-    <h1>TAing</h1>
+    <h1>Teaching Assistant Work</h1>
     <h4> Cornell University</h4>
     <ul>
         {{ m::cv_ta(class="CS 4120", name="Compilers", date="Spring 2020")}}
@@ -123,6 +121,9 @@
 
 <h1> Volunteering </h1>
 <div class="pub">
+    {{ m::cv_hon(date="2025", name="Union Steward", association=
+    "CSGU-UE Local 300") }}
+
     {{ m::cv_hon(date="2019-2020", name="General Member", association=
     "Graduate Students for Gender Inclusion in Computing") }}
 
