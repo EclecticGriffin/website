@@ -9,7 +9,7 @@ template="simplepage.html"
 ### _Simulation and Debugging in the Calyx Ecosystem_
 
 <div align="center">
-  <img src="/projects/calyx-logo.svg" alt="The Calyx Logo" width="250">
+  <img src="/projects/calyx-logo-2.svg" alt="The Calyx Logo" width="250" style="background-color:white; padding:0.3rem; margin: 0.7rem">
 </div>
 
 [Calyx][calyx] is an open-source intermediate language for developing custom

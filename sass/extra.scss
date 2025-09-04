@@ -51,3 +51,81 @@
 //     margin-top: 0.5rem;
 //     margin-bottom: 0.5rem;
 // }
+
+:root {
+    --dark-surface: #000000;
+    --dark-secondary-surface: #333333;
+    --dark-text: #ffffff;
+    --dark-text-summary: #d0cdcd;
+    --dark-accent-1: #b703ba;
+    --dark-sidebar: #22004c;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark-surface);
+        color: var(--dark-text);
+
+    }
+
+    .post-title a,
+    a {
+        color: var(--dark-accent-1);
+    }
+
+    .post-title {
+        color: var(--dark-text);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--dark-text);
+    }
+
+    strong {
+        color: var(--dark-text)
+    }
+
+    .blog_short>.description>.summary {
+        color: var(--dark-text-summary)
+    }
+
+    .table-profile tbody tr:nth-child(2n+1) td,
+    tbody tr:nth-child(2n+1) th {
+        background-color: var(--dark-surface);
+    }
+
+    .table-profile {
+        background-color: var(--dark-surface);
+        color: var(--dark-text);
+    }
+
+    .sidebar {
+        background-color: var(--dark-sidebar);
+    }
+
+    .pub_authors a {
+        color: var(--dark-text);
+        text-decoration-color: var(--dark-accent-1)
+    }
+
+    a.button_link {
+        border: 1px solid #feffff;
+        color: #ffffff;
+    }
+
+    a.button_link:hover {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        transition: color 0.5s, background-color 0.5s;
+    }
+
+    .author_me {
+        color: var(--dark-accent-1)
+    }
+}
