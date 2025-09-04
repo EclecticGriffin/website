@@ -26,7 +26,7 @@
 <hr>
 </div>
 
-I am a final year PhD candidate in Computer Science at Cornell, and a member of
+I am a final year PhD candidate in Computer Science at Cornell and a member of
 the [Capra](https://capra.cs.cornell.edu/) lab. **I am currently looking for industry roles. Please reach out if you think I would be a good fit for your team.**
 
 
