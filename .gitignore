@@ -2,3 +2,4 @@
 public
 .DS_STORE
 .vscode/settings.json
+static/processed_images/
