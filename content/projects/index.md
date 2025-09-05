@@ -37,5 +37,5 @@ policies can be implemented using systems such as [Ancile][ancile]!
 
 
 [calyx]: https://calyxir.org/
-[cider]: https://docs.calyxir.org/debug/index.html
+[cider]: https://github.com/calyxir/calyx/tree/main/cider
 [ancile]: https://ancile-project.github.io/
